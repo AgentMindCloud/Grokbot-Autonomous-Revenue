@@ -1,0 +1,16 @@
+# Sample TA Confluence Core Contract
+name: ta-confluence-btc-3h
+role: hard-reasoning-ta
+inputs: [ohlcv, funding, oi, orderbook, multi-tf]
+process:
+  - parallel-factor-scoring
+  - conflict-detection
+  - scenario-branching
+  - formal-consistency
+  - confidence-intervals
+output:
+  teaser: public
+  full: x402-gated
+formal_properties:
+  - consistency
+  - no-unaddressed-contradiction

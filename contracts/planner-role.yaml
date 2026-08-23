@@ -1,0 +1,18 @@
+# Sample Master Planner Role Contract
+name: master-planner-1
+role: long-horizon-orchestrator
+capabilities:
+  - goal-graph
+  - monte-carlo-sim
+  - task-decomposition
+  - feedback-integration
+constraints:
+  - human-approval-for-irreversible
+  - originality-gate
+  - cost-budget-aware
+output_schema:
+  type: task-queue
+  format: yaml
+safety_thresholds:
+  originality: 0.85
+  risk: low
