@@ -1,4 +1,4 @@
-# Sample TA Confluence Core Contract
+# TA Confluence Core Contract — 2026-09-01
 name: ta-confluence-btc-3h
 role: hard-reasoning-ta
 inputs: [ohlcv, funding, oi, orderbook, multi-tf]
@@ -8,9 +8,22 @@ process:
   - scenario-branching
   - formal-consistency
   - confidence-intervals
+tools:
+  - name: ta_confluence_teaser
+    payment: free
+    timeout_ms: 800
+    output: [bias, key_levels, confluence_bucket]
+  - name: ta_confluence_full
+    payment: x402
+    asset: USDC
+    chain: base
+    price: "2.00"
+    timeout_ms: 2500
+    output: [score_table, ci, invalidation, scenarios]
 output:
   teaser: public
   full: x402-gated
+log: analytics/mcp-calls.jsonl
 formal_properties:
   - consistency
   - no-unaddressed-contradiction
