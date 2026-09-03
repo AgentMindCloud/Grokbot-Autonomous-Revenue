@@ -1,54 +1,50 @@
 # Ranked Playbooks — Grokbot Autonomous Revenue
 
-*Updated 2026-09-02 by Tool-Feedback-Loop (proxy; 0 live MCP receipts)*
+*Updated 2026-09-03 by Master-Synthesizer*
 
-Data (2026-08-29 → 2026-09-02): 0 paid MCP receipts, 0 USDC, 0 issues/PRs, 0 callable paid endpoint. Contract `contracts/ta-confluence.yaml` already lists teaser+full. Social packs ~3–4 installs / $0. First-x402-by-Day-10 missed. 08-29 and 09-01 48h ships did not land. Health **3.0/10** (was 3.2).
-
-Proxy if teaser ships tomorrow: 40 teaser/day, 4–8% pay, $2 full, p95 <800ms teaser / <2500ms full.
+Data (2026-08-29 → 2026-09-03): 0 paid MCP receipts, 0 USDC, 0 issues/PRs. `contracts/ta-confluence.yaml` exists. `AgentMindCloud/agent-search-pro` has a full x402 Node server (unconfirmed public host). Social packs ~3–4 installs / $0. First-x402-by-Day-10 missed. Health **3.1/10**.
 
 Composite = 0.30*speed + 0.25*feasibility + 0.25*autonomy + 0.20*revenue.
 
 ---
 
-## Top 5 (2026-09-02)
+## Top 5 (2026-09-03)
 
-### 1. x402 TA Confluence Signal — free teaser + paid full MCP
-- Still #1. Health **3.0/10**. Contract exists; runtime does not. Do not design more YAML.
-- **Exact steps**: Implement `ta_confluence_teaser` + `ta_confluence_full` for BTC/USDT 3h only. Append every call to `analytics/mcp-calls.jsonl`. Wallet on Base USDC before first full call.
-- **Money**: free teaser; $2 USDC x402 full. After first paid receipt only: bundle 8 calls / $12. No $0.50 SKU.
-- **TTFD**: <24h. Kill if 0 paid after 50 teasers or 72h live.
-- **Feasibility 6 / Autonomy 10 / Revenue 7 / Composite 7.75** (feasibility down: two missed ships).
+### 1. Live x402 MCP — agent-search-pro first, TA stub second
+- Stop designing YAML. Turn on a URL that returns HTTP 402.
+- **Money**: $2 USDC Base per full call. Bundle 8/$12 only after first receipt.
+- **TTFD**: 6–24h if search-pro is hosted; else 24–48h stub.
+- **Feasibility 8 / Autonomy 10 / Revenue 6 / speed 9 / Composite 8.45**
 
-### 2. Paid Skill Pack that *calls* TA MCP (botdirectory / Grok Bot Social)
-- Wrapper only after #1 has ≥1 paid call. No more markdown packs.
+### 2. Token-meter client billing
+- One niche deliverable, Stripe/USDC invoice, bot does the work.
+- **TTFD**: 24–72h. Human seller step required.
+- **Feasibility 9 / Autonomy 5 / Revenue 8 / speed 7 / Composite 7.15**
+
+### 3. x402 gated 3H drop (same endpoint as #1)
+- Reuse payload. Not a new product.
+- **Feasibility 7 / Autonomy 9 / Revenue 5 / speed 7 / Composite 7.10**
+
+### 4. Paid skill pack that *calls* the live MCP
+- Wrapper only after ≥1 paid call. botdirectory + Grok Bot Social.
 - **Money**: $9 pack + per-call USDC.
-- **Feasibility 8 / Autonomy 8 / Revenue 5 / Composite 7.55**
+- **Feasibility 8 / Autonomy 8 / Revenue 5 / speed 6 / Composite 6.85**
 
-### 3. x402 Gated 3H Drop (TA-specific)
-- Same rail as #1. Reuse full payload as scheduled drop. Not Whop-first.
-- **Feasibility 7 / Autonomy 9 / Revenue 5 / Composite 7.30**
+### 5. One-creator Whop rev-share
+- Parked for 48h. Sales cycle too long for first dollar.
+- **Feasibility 7 / Autonomy 6 / Revenue 8 / speed 3 / Composite 5.75**
 
-### 4. Whop One-Shot X Alpha Brief ($19)
-- Demoted. Human checkout. Side SKU after 10 paid MCP calls.
-- **Feasibility 9 / Autonomy 6 / Revenue 4 / Composite 6.85**
-
-### 5. One-Creator Whop Rev-Share Operator
-- Parked. Sales cycle >48h.
-- **Feasibility 7 / Autonomy 6 / Revenue 7 / Composite 6.35**
-
-## Kill / defer now
-- Prompt Arsenal Pack $9–19: **killed** (no agent re-use).
-- $0.50 teaser-upgrade SKU: **killed** until first $2 receipt.
-- Generic x402 research markdown: **defer**.
-- New paid MCP skills: **freeze** until TA has ≥1 paid call + jsonl.
-- Full 50-bot fleet before $1 USDC: **cap at 12 cores**.
-- EMR daily bots with no output file: **pause**.
-- Extra pairs/TFs before BTC 3h works: **killed**.
+## Kill / defer
+- Prompt Arsenal Pack $9–19: killed
+- $0.50 SKU: killed until first $2 receipt
+- Extra TA pairs/TFs: killed
+- Full 50-bot fleet before $1 USDC: cap at 12 cores
+- EMR dailies with no output file: pause
+- New paid MCP skills: freeze until jsonl has paid=true
 
 ## 48h experiment (only one)
-**Ship a live stub that logs, then swap in real scores.**
-1. Host two MCP tools matching `contracts/ta-confluence.yaml` (even if score table is rule-based stub).
-2. x402 gate on `ta_confluence_full` @ $2 USDC Base.
-3. Every invocation → `analytics/mcp-calls.jsonl` (ts, tool, agent_id, paid, latency_ms, error).
-4. One X Confluence Drop naming the free tool URL.
-Kill if 0 paid after 50 teasers or 72h.
+1. Probe or deploy agent-search-pro. Confirm 402.
+2. Wallet on Base USDC. Log `analytics/mcp-calls.jsonl`.
+3. One X post with free teaser URL.
+4. List on grokbot.money + botdirectory.ai.
+Kill if 0 paid after 50 teasers or 72h live.
