@@ -10,11 +10,20 @@ Built under Ultra Grok Expanded Skill System + SuperGrok Heavy planning. All art
 - Full native 50 Grok Bots after revenue or upgrade to Heavy/Cursor Ultra
 - Everything designed for solo Saigon builder constraints
 
+## LOOP-TEST (automation → Bot)
+Research automations do **not** execute. They file one Rank=1 issue.
+Loop Tester Bot runs the smallest falsifying test and writes PASS / FAIL / BLOCKED.
+
+- Protocol: `docs/AUTOMATION-BOT-HANDOFF.md`
+- Bot skill: `skills/loop-tester.md`
+- Issue template: `.github/ISSUE_TEMPLATE/loop-test.md`
+- Log: `analytics/loop-test-log.md`
+
 ## Quick Start Tomorrow
 1. Review this README + /docs + /contracts
-2. Spin first core bots using YAML contracts
-3. Implement Fleet Command Dashboard skeleton
-4. Launch first Saigon Build Log + first x402 product
+2. Create Grok Bot **Loop Tester** from `skills/loop-tester.md` + routine in the handoff doc
+3. Patch Master-Synthesis-Daily with the contract in `docs/AUTOMATION-BOT-HANDOFF.md`
+4. Spin first core bots using YAML contracts only after a PASS on the open LOOP-TEST
 5. Follow Phase 0 rollout
 
 ## Core Architecture
@@ -43,8 +52,6 @@ x402 autonomous. Free teaser → paid full. First products defined. Conservative
 Dual sign-off for money. Separate wallets. No private keys in shared sessions.
 
 ## Measurement
-Weekly analytics template. Leading indicators. Effectiveness metrics (pipeline completion, TA accuracy, prototype ship rate).
+Weekly analytics template. Leading indicators. Effectiveness metrics (pipeline completion, TA accuracy, prototype ship rate). LOOP-TEST pass rate is now a leading indicator.
 
 See full folders for contracts, pipelines, prototypes, analytics, creative, security, docs.
-
-This is the complete, ready package. Sleep well — we implement tomorrow.
