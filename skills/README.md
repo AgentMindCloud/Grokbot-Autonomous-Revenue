@@ -1,5 +1,6 @@
 # Skills for Grok Bots
 
-- `loop-tester.md` — only Bot skill that executes tests against LOOP-TEST issues.
+- `loop-tester.md` — executes the Rank=1 LOOP-TEST.
+- `loop-auditor.md` — re-checks Tester evidence only. No new experiments.
 
-Research stays in Grok Automations. Do not duplicate EMR dailies here.
+Cap: these two Bots. Research stays in Grok Automations.
