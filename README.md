@@ -1,57 +1,32 @@
-# 50 Grok Bot Self-Revenue Fleet
+# Market Desk (A2A)
 
-**Hardened 10/10 design for extreme X growth of @JanSol0s / BbotBook + long-horizon autonomous agents + hard reasoning cores + full working prototypes + autonomous x402 revenue.**
+Human-governed Grok Bot fleet that discovers, buys, sells, and scores **services sold to other agents**.
 
-Built under Ultra Grok Expanded Skill System + SuperGrok Heavy planning. All artifacts ready for implementation into Grok Bot system.
+This repo is the control plane: verified facts, spend policy, ledger schema, bot contracts.
 
-## Status
-- Phase 0 Hybrid (SuperGrokPro multi-agent + Build + existing bots + local where useful)
-- Progressive spin-up: start 12-18 highest-leverage bots, expand only after proof
-- Full native 50 Grok Bots after revenue or upgrade to Heavy/Cursor Ultra
-- Everything designed for solo Saigon builder constraints
+It is **not** a 50-bot X-growth system. That design is historical and inactive.
 
-## LOOP-TEST (automation → Bot)
-Research automations do **not** execute. They file one Rank=1 issue.
-Loop Tester Bot runs the smallest falsifying test and writes PASS / FAIL / BLOCKED.
+## Start here
 
-- Protocol: `docs/AUTOMATION-BOT-HANDOFF.md`
-- Bot skill: `skills/loop-tester.md`
-- Issue template: `.github/ISSUE_TEMPLATE/loop-test.md`
-- Log: `analytics/loop-test-log.md`
+1. `VERIFIED.md` — only these facts are true
+2. `policy.yaml` — caps and gates
+3. `desk/FLEET.md` — roster and week cadence
+4. `desk/bots/` — paste-ready jobs
+5. `ledger/SCHEMA.md` — append-only records
+6. `RANKED-PLAYBOOKS.md` — **superseded** as the operating list (kept as history)
 
-## Quick Start Tomorrow
-1. Review this README + /docs + /contracts
-2. Create Grok Bot **Loop Tester** from `skills/loop-tester.md` + routine in the handoff doc
-3. Patch Master-Synthesis-Daily with the contract in `docs/AUTOMATION-BOT-HANDOFF.md`
-4. Spin first core bots using YAML contracts only after a PASS on the open LOOP-TEST
-5. Follow Phase 0 rollout
+## SKU-0
 
-## Core Architecture
-**Not** multi-X-account farm. **Yes** specialized Grok Bots (native when available) powering one authentic main account + BbotBook hub.
+https://aggregator-beta.vercel.app  
+$0.02 search / $0.10 synthesis, Base USDC, HTTP 402.  
+Private until jsonl + reconciled self-canaries + human yes.
 
-Shared computer note: least-privilege + dual-approval for financial actions.
+## What Grok Bots do vs what you do
 
-### Hierarchy (target 50)
-- Orchestration & Memory (6): Planners, Governance/Vesper-style, Metrics/Optimizers
-- Hard Reasoning (12): TA Confluence (formal), Research Pipelines, Code/Prototype Builders, Formal Verif
-- Growth & Content (16): Content Architects (personas), Engagement Intelligence, Meta Documenters
-- Revenue (16): x402 Fulfillment, Skill/Marketplace, Pricing Economists, Prospectors
+Bots draft, inspect, probe health, file cards, reconcile.
+You: fund the hot wallet, accept new counterparties, enable listings, post to X, raise caps.
 
-## Phase 0 Hybrid (Days 1-14)
-Start with 12-18 using current SuperGrokPro capabilities. Prove velocity + first revenue. Upgrade path explicit.
+## Old loop
 
-## Creative System (magnetic)
-Exact formats: Saigon Build Log, Confluence Drop, Prototype Ship, 50 Bots Debated, Skill Drop FOMO, Contrarian Framework.
-Persona divergence enforced.
-Visual library prioritized.
-
-## Revenue
-x402 autonomous. Free teaser → paid full. First products defined. Conservative ramp + throttle.
-
-## Security
-Dual sign-off for money. Separate wallets. No private keys in shared sessions.
-
-## Measurement
-Weekly analytics template. Leading indicators. Effectiveness metrics (pipeline completion, TA accuracy, prototype ship rate). LOOP-TEST pass rate is now a leading indicator.
-
-See full folders for contracts, pipelines, prototypes, analytics, creative, security, docs.
+`skills/loop-tester.md` and `skills/loop-auditor.md` still describe the evidence style.
+Map Tester → Lab, Auditor → Settlement Auditor. Do not keep those as extra scheduled bots once Market Desk is live.

@@ -1,0 +1,54 @@
+# Market Desk policy — human-owned, bots enforce
+version: 1
+updated: 2026-09-16
+timezone: Asia/Ho_Chi_Minh
+
+wallet:
+  chain_default: base
+  asset: USDC
+  hot_max_usd: 25.00
+  vault_separate: true
+  signer_roles: [buyer_payment_worker]
+  seller_payee_separate_from_buyer: true
+
+caps:
+  per_call_usd: 0.25
+  per_session_usd: 5.00
+  per_day_usd: 10.00
+  first_month_budget_usd: 25.00
+
+approval:
+  novel_counterparty: human
+  new_chain_or_asset: human
+  public_listing: human
+  price_change: human
+  x_post: human
+  refund: human
+  standing_autopay:
+    enabled_after_n_clean_canaries: 5
+    exact_match_only: [seller, sku, chain, asset]
+    max_call_usd: 0.25
+
+sku0:
+  name: agent-search-pro
+  url: https://aggregator-beta.vercel.app
+  prices_usd: { search: 0.02, synthesis: 0.10 }
+  public: false
+  list_after:
+    jsonl: true
+    self_canaries_reconciled: 10
+    unexplained_fail_rate_lt: 0.05
+    human_yes: true
+
+flags:
+  lab_self_test_not_revenue: true
+  never_authorize_from_catalog_price: true
+  live_402_required_before_pay: true
+  idempotency_required: true
+
+kill:
+  bot_if: [pays, posts, lists, raises_own_caps]
+  sku_if:
+    unexplained_fail_rate_gt: 0.05
+    catalog_ne_live_402: true
+    self_tests_counted_as_demand: true
