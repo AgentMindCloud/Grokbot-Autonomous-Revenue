@@ -1,4 +1,4 @@
-# Standing decisions — CoS reads this before asking the human
+# Standing decisions — CoS and Desk Canon read this before asking the human
 
 Updated: 2026-09-17
 Human is only for Red items not already decided here.
@@ -18,15 +18,14 @@ Human is only for Red items not already decided here.
 
 ## Who answers who
 
-Specialists ask **Market CoS**, not the human.
-CoS answers from this file + policy.yaml + VERIFIED.md.
-CoS asks the human only if the row is missing or marked Red and undecided.
+Specialists ask **Desk Canon** for policy facts.
+Desk Canon cites the repo. It does not assign work.
+**Market CoS** routes work and builds the queue using Canon's answers.
+Human only if Canon returns UNKNOWN.
 
-## If CoS is unsure
+## If Canon / CoS is unsure
 
 Output:
 1. Recommended default from this table
-2. Why
+2. Source path
 3. One yes/no for the human only when the table says human yes
-
-Do not ask open questions like "which steals to adopt?" when the table already says none.
