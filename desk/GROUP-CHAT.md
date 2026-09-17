@@ -1,69 +1,68 @@
-# Market Desk group chat
+# Market Desk group chats (max 6 members each)
 
-Name: Market Desk
-Members: Market CoS, Desk Canon, Protocol Scout, Frontier Watch, Buyer Desk, Seller Desk, Lab, Settlement Auditor, Spend Governor
-Do not add dr eggbot (builder stays outside the money room)
-Do not add a payment worker personality
+Assume the cap is 6 including you. That is 5 bots + you per room.
+If the cap is 6 bots plus you, add Lab to Command.
 
-## Standing orders (pin this as the first message)
+Do not put eggbot in either room.
+
+## Room 1 — Market Command
+
+Members: you, Market CoS, Desk Canon, Buyer Desk, Settlement Auditor, Spend Governor
+
+Pin:
 
 ```
-This chat is Market Desk. Repo: AgentMindCloud/Grokbot-Autonomous-Revenue.
-Sources: VERIFIED.md, policy.yaml, desk/DECISIONS.md, desk/FLEET.md.
+Room: Market Command. Repo: AgentMindCloud/Grokbot-Autonomous-Revenue.
+Sources: VERIFIED.md, policy.yaml, desk/DECISIONS.md.
 
-Who speaks
-- Specialists post results only. No policy debates.
-- Policy / "what should we do" → @Desk Canon
-- After Canon answers → @Market CoS files the queue line
-- Money inspect/pay → @Buyer Desk only after a Purchase Card
-- Health of SKU-0 → @Seller Desk
-- Score quality → @Lab
-- Did pay match output → @Settlement Auditor
-- Allowed or not → @Spend Governor
-- Human is only pinged when Canon says UNKNOWN
+You = human. Speak last.
+@Desk Canon = policy facts from repo only
+@Market CoS = queue only, after Canon answers
+@Buyer Desk = inspect/pay only with a Purchase Card
+@Settlement Auditor = recon
+@Spend Governor = ALLOW/DENY vs policy.yaml
 
-Rules
-- One topic per message. Name the artifact (card id or file).
-- Default answer if unsure: @Desk Canon
-- Do not ask the human open questions Canon can answer
-- No X posts, listings, new SKUs, TA, or human-client work
-- No payment talk without a Purchase Card
-- NONE is a valid scheduled result — do not invent work
-- Week-1 defaults: no Frontier steals, SKU-0 public hold stays, inspect-only yes, pay no
+Week-1: no Frontier steals, SKU-0 public HOLD, inspect-only YES, pay NO.
+Human ping only if Canon says UNKNOWN.
+NONE is valid. Do not invent work.
 ```
 
-## How a question should look
+First work message:
 
-Specialist:
 ```
-@Desk Canon SKU-0: lift canary hold for public listing?
-```
-
-Desk Canon:
-```
-No. Public/X/directories stay HOLD until 10 reconciled LAB_SELF_TEST receipts + human yes.
-Source: desk/DECISIONS.md
+@Desk Canon confirm next step is p-20260916-01 inspect-only.
+@Buyer Desk if Canon says yes, run ledger/p-20260916-01-sku0-inspect.md. No pay.
+@Settlement Auditor check the inspect output. No charge allowed.
 ```
 
-Market CoS:
+## Room 2 — Market Intel
+
+Members: you, Market CoS, Desk Canon, Protocol Scout, Frontier Watch, Seller Desk
+
+Pin:
+
 ```
-Logged. Queue: keep SKU-0 private. Next: Buyer inspect p-20260916-01 only.
+Room: Market Intel. Repo: AgentMindCloud/Grokbot-Autonomous-Revenue.
+No payments in this room.
+
+@Protocol Scout = bazaar/protocol diffs + SKU-0 health backup
+@Frontier Watch = method cards only, no adopt
+@Seller Desk = SKU-0 /health only. No listing. No X.
+@Desk Canon = policy
+@Market CoS = file cards onto the Command queue. Do not execute buys here.
+
+Steals stay NONE until Friday list + human named yes.
 ```
 
-## How work should look
+## Who lives in DMs
 
-CoS:
-```
-@Buyer Desk run ledger/p-20260916-01-sku0-inspect.md inspect only. No pay.
-```
+- Lab — you or CoS forwards a scored artifact into Command after a canary
+- dr eggbot — design only, never money
 
-Buyer posts the 402 fields.
-```
-@Settlement Auditor confirm no charge and fields complete.
-@Desk Canon any hold left after this inspect?
-```
+If a sixth bot seat opens in Command, add Lab.
 
-## Anti-pattern
+## Routing
 
-Do not use this chat for eggbot redesign, X drafts, or general research essays.
-Those stay in DMs with the owning bot.
+Intel results → CoS one-liner in Command.
+Policy fight → Canon in the room where the question appeared.
+Pay path exists only in Command.
