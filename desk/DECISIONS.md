@@ -7,7 +7,7 @@ Human is only for Red items not already decided here.
 
 | Question | Answer | Until |
 |---|---|---|
-| Which Frontier steals to adopt? | **Named yes only.** Adopted 2026-09-18: sku-0 canary→fix fleet (paused until arm). All other steals None. | Next Friday steal-list + explicit human yes per item |
+| Which Frontier steals to adopt? | **Named yes only.** Adopted 2026-09-18: sku-0 canary→fix fleet. All other steals None. | Next Friday steal-list + explicit human yes per item |
 | Lift SKU-0 canary hold? | **No for public / X / directories.** | 10 reconciled LAB_SELF_TEST receipts + human yes |
 | Run inspect-only on SKU-0? | **Yes.** Card `p-20260916-01` | Done when live 402 is logged, $ charged = 0 |
 | Run $0.02 self-canary? | **No** until inspect card is complete and Auditor says fields match | Then human yes on a new pay card |
@@ -15,7 +15,7 @@ Human is only for Red items not already decided here.
 | Attach payment MCP to Buyer? | **No** | After inspect-only success |
 | Auto-pay? | **No** | 5 clean canaries on exact seller+sku+chain+asset |
 | Adopt workplace bots from Watch? | **Never** | Permanent |
-| Arm canary→fix fleet bot? | **No** (create paused only) | Separate human yes to arm |
+| Arm canary→fix fleet bot (SKU-0 Fix)? | **Yes** (armed 2026-09-18 via d-20260918-02). Still never pay/list. | Human pause/disarm |
 
 ## Who answers who
 
