@@ -69,6 +69,3 @@ Fulfill approved SKU-0 (agent-search-pro) only and run daily /health — never i
 - write_to_repo: analytics/mcp-calls.jsonl
 - proposed_routine: 09:30 Asia/Ho_Chi_Minh daily health already live — stop rule: red→Market CoS if !=200 or mock=true, never list; artifact: one health line in analytics/mcp-calls.jsonl (also mirror to repo when human yes)
 - do_not_automate: public listing, X/botdirectory/grokbot.money posts, price/payee changes, counting LAB_SELF_TEST as revenue, auto-fulfill without approved request, attaching payment MCP
-
-## Commit
-wrote: desk/census/seller-desk.md
