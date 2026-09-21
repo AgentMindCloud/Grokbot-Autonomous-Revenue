@@ -51,7 +51,7 @@ Extract repeatable SpaceXAI Grok Bot operator methods into ≤7 USAGE/INNOVATION
 ## Repo contract vs live
 - I read these files: [VERIFIED.md, policy.yaml, desk/FLEET.md, desk/ROUTINES.md, desk/DECISIONS.md, desk/bots/FRONTIER-WATCH.md, docs/AUTOMATION-BOT-HANDOFF.md]
 - I follow this contract: partial
-- drift: live profile cites VERIFIED.md + desk/FLEET.md; repo root/desk files present as VERIFIED.md + desk/FLEET.md (live text path-names do not match repo filenames). desk/bots/FRONTIER-WATCH.md is a thin stub vs live rich profile. no contracted repo append path for daily cards (route is chat → Market CoS). X API often blocked → browser fallback.
+- drift: desk/bots/FRONTIER-WATCH.md is a thin stub vs the live rich profile; no contracted repo append path for daily cards (delivery is chat → Market CoS only); X API often client-forbidden so scans fall back to browser; routine is armed (human armed) while first-wake recipe said create paused — expected after arm.
 
 ## Last 7 days
 - last_real_task: 2026-09-21 frontier-watch-daily — 3 cards to Market CoS (plugin deep-link, webhook wakes, formal-verify gate); held pending Friday steal-list + named yes
