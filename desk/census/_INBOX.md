@@ -171,3 +171,9 @@
 - new_ids: none
 - human_needed: no
 - reason: Green — only desk/census/_INBOX.md changed; no ledger/*.jsonl lines in this push.
+
+# INBOX 2026-09-21T15:11:43Z
+- files: ledger/eod-2026-09-21.md
+- new_ids: none
+- human_needed: no
+- reason: Green — EOD settlement recon CLEAN (0 paid, 0 receipts, no mismatches); no ledger/*.jsonl lines.
