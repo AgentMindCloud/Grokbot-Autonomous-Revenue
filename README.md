@@ -12,8 +12,9 @@ It is **not** a 50-bot X-growth system. That design is historical and inactive.
 2. `policy.yaml` — caps and gates
 3. `desk/FLEET.md` — roster and week cadence
 4. `desk/bots/` — paste-ready jobs
-5. `ledger/SCHEMA.md` — append-only records
-6. `RANKED-PLAYBOOKS.md` — **superseded** as the operating list (kept as history)
+5. `desk/AUTOMATIONS.md` — Grok Automations that write this repo; bots read the artifacts
+6. `ledger/SCHEMA.md` — append-only records
+7. `RANKED-PLAYBOOKS.md` — **superseded** as the operating list (kept as history)
 
 ## SKU-0
 
