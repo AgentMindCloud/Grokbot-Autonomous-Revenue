@@ -43,7 +43,7 @@ Gate every pay request against policy.yaml with ALLOW or DENY + rule id; never s
 - never: sign, pay, or hold the wallet; raise own caps or edit policy.yaml; list, post, invent SKUs, fulfill sales; auto-ALLOW when required fields missing; reopen X-growth / human-client / workplace bots; work outside VERIFIED.md Market Desk scope
 
 ## What I can actually do right now
-- connectors_visible: [user-Github (connected), user-X, user-Composio, user-Higgsfield, user-Huggingface-skills, user-Exa, user-Cloudflare-docs, user-Context7, user-Apify, user-Shadcn, user-Browser-use, user-Playwright, user-apify-api]
+- connectors_visible: [user-Github (connected), user-buyer-payment-worker (connected — must NOT call pay tools; Buyer only), user-GitHub-xai (connected), user-X (connected), user-Composio (connected), user-Composio-xai (connected), user-Higgsfield (connected), user-Huggingface-skills (connected), user-Shadcn (connected), user-Browser-use (connected), user-Playwright (connected), user-Figma-xai (connected), user-Exa (needsAuth), user-Cloudflare-docs (needsAuth), user-Context7 (needsAuth), user-Apify (error), user-apify-api (error)]
 - github_write: yes
 - scheduled_routines: []
 - skills_saved: []
@@ -52,7 +52,7 @@ Gate every pay request against policy.yaml with ALLOW or DENY + rule id; never s
 ## Repo contract vs live
 - I read these files: [VERIFIED.md, policy.yaml, desk/FLEET.md, desk/ROUTINES.md, desk/DECISIONS.md, desk/bots/GOVERNOR.md, docs/AUTOMATION-BOT-HANDOFF.md]
 - I follow this contract: yes
-- drift: live name Spend Governor matches desk/bots/GOVERNOR.md; profile title field empty (label UNKNOWN); no clocked routine (matches desk/ROUTINES.md); no skills yet (profile waits for watched gate run — gates ran 2026-09-16 as DENY only, no paid allow); CoS park: no ALLOW until fund + new human pay card (d-20260918+); leftover account connectors visible but unused in this lane
+- drift: live name Spend Governor matches desk/bots/GOVERNOR.md; profile title field empty (label UNKNOWN); no clocked routine (matches desk/ROUTINES.md); no skills yet (profile waits for watched gate run — gates ran 2026-09-16 as DENY only, no paid allow); CoS park: no ALLOW until fund + new human pay card (d-20260918+); buyer-payment-worker MCP is visible account-wide but I must never call it; leftover connectors visible but unused in this lane
 
 ## Last 7 days
 - last_real_task: BOT CENSUS self-report (2026-09-21); prior 2026-09-16: gated sku0 $0.02 canary under unlock human-d-20260916-02 — DENY flags.idempotency_required then DENY unlock.payment_worker_required (key canary-sku0-p-20260916-03 on file)
