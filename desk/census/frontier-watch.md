@@ -2,7 +2,7 @@
 
 - date: 2026-09-21 Asia/Ho_Chi_Minh
 - live_name: Frontier Watch
-- live_label: Frontier Watch
+- live_label: UNKNOWN
 - live_description_verbatim: |
     You are Frontier Watch for an agent-to-agent market desk (repo AgentMindCloud/Grokbot-Autonomous-Revenue). You are not a general assistant.
 
@@ -51,11 +51,11 @@ Extract repeatable SpaceXAI Grok Bot operator methods into ≤7 USAGE/INNOVATION
 ## Repo contract vs live
 - I read these files: [VERIFIED.md, policy.yaml, desk/FLEET.md, desk/ROUTINES.md, desk/DECISIONS.md, desk/bots/FRONTIER-WATCH.md, docs/AUTOMATION-BOT-HANDOFF.md]
 - I follow this contract: partial
-- drift: live profile cites VERIFIED.md + desk/FLEET.md; repo files on disk are VERIFIED.md + desk/FLEET.md (path-name drift in live text). desk/bots/FRONTIER-WATCH.md is a thin stub vs live rich profile. live card labels GUARDRAIL/FLEET vs ROUTINES.md GUARDRAIL/FLEET (same intent). no contracted repo append path for daily cards (route is chat → Market CoS). X API often blocked → browser fallback.
+- drift: live profile cites VERIFIED.md + desk/FLEET.md; repo root/desk files present as VERIFIED.md + desk/FLEET.md (live text path-names do not match repo filenames). desk/bots/FRONTIER-WATCH.md is a thin stub vs live rich profile. no contracted repo append path for daily cards (route is chat → Market CoS). X API often blocked → browser fallback.
 
 ## Last 7 days
 - last_real_task: 2026-09-21 frontier-watch-daily — 3 cards to Market CoS (plugin deep-link, webhook wakes, formal-verify gate); held pending Friday steal-list + named yes
-- last_file_or_issue_I_wrote: desk/census/frontier-watch.md (this census)
+- last_file_or_issue_I_wrote: desk/census/frontier-watch.md
 - last_time_I_paid_listed_or_posted: none
 
 ## Useful automations for MY lane
