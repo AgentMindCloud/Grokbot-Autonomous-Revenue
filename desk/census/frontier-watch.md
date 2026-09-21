@@ -35,7 +35,7 @@
 - match_to_desk_bots_file: desk/bots/FRONTIER-WATCH.md
 
 ## Mission (one sentence)
-Extract repeatable Grok Bot operator methods into ≤7 USAGE/INNOVATION/GUARDRAIL/FLEET cards for Market CoS — never adopt, never engage accounts.
+Extract repeatable SpaceXAI Grok Bot operator methods into ≤7 USAGE/INNOVATION/GUARDRAIL/FLEET cards for Market CoS — never adopt, never engage accounts.
 
 ## Job / anti-jobs
 - job: daily scan @poteto @mattyp @roshan_s @bot @xai → method cards to Market CoS; Friday steal-list 1–3 upgrades gated on named human yes
@@ -44,22 +44,22 @@ Extract repeatable Grok Bot operator methods into ≤7 USAGE/INNOVATION/GUARDRAI
 ## What I can actually do right now
 - connectors_visible: [user-X, user-Github, user-Composio, user-Higgsfield, user-Huggingface-skills, user-Exa, user-Cloudflare-docs, user-Context7, user-Apify, user-Shadcn, user-Browser-use, user-Playwright, user-apify-api]
 - github_write: yes
-- scheduled_routines: [{time: "07:30", timezone: "Asia/Ho_Chi_Minh", first_line: "Scan watched operators for new methods since last run. Emit ≤7 cards."}]
+- scheduled_routines: [{"time": "07:30", "timezone": "Asia/Ho_Chi_Minh", "first_line": "Scan watched operators for new methods since last run. Emit ≤7 cards."}]
 - skills_saved: []
 - group_chats_I_am_in: [Market Intel]
 
 ## Repo contract vs live
-- I_read_these_files: [VERIFIED.md, policy.yaml, desk/FLEET.md, desk/ROUTINES.md, desk/DECISIONS.md, desk/bots/FRONTIER-WATCH.md, docs/AUTOMATION-BOT-HANDOFF.md]
-- I_follow_this_contract: partial
-- drift: live profile cites VERIFIED.md + desk/FLEET.md but repo files are VERIFIED.md + desk/FLEET.md; desk/bots/FRONTIER-WATCH.md is a thin stub vs the live rich profile; live card types say GUARDRAIL/FLEET while ROUTINES.md says GUARDRAIL/FLEET (same intent); no repo path yet for appending daily cards (chat → Market CoS only); X API often blocked so scans fall back to browser.
+- I read these files: [VERIFIED.md, policy.yaml, desk/FLEET.md, desk/ROUTINES.md, desk/DECISIONS.md, desk/bots/FRONTIER-WATCH.md, docs/AUTOMATION-BOT-HANDOFF.md]
+- I follow this contract: partial
+- drift: live profile cites VERIFIED.md + desk/FLEET.md; repo files on disk are VERIFIED.md + desk/FLEET.md (path-name drift in live text). desk/bots/FRONTIER-WATCH.md is a thin stub vs live rich profile. live card labels GUARDRAIL/FLEET vs ROUTINES.md GUARDRAIL/FLEET (same intent). no contracted repo append path for daily cards (route is chat → Market CoS). X API often blocked → browser fallback.
 
 ## Last 7 days
-- last_real_task: 2026-09-21 frontier-watch-daily — 3 cards to Market CoS (plugin deep-link, webhook wakes, formal-verify gate); held for Friday steal-list + named yes
-- last_file_or_issue_I_wrote: none (pre-census)
+- last_real_task: 2026-09-21 frontier-watch-daily — 3 cards to Market CoS (plugin deep-link, webhook wakes, formal-verify gate); held pending Friday steal-list + named yes
+- last_file_or_issue_I_wrote: desk/census/frontier-watch.md (this census)
 - last_time_I_paid_listed_or_posted: none
 
 ## Useful automations for MY lane
 - read_from_repo: [VERIFIED.md, policy.yaml, desk/FLEET.md, desk/ROUTINES.md, desk/DECISIONS.md, desk/bots/FRONTIER-WATCH.md]
-- write_to_repo: desk/census/frontier-watch.md (this census); proposed append path analytics/frontier-watch-log.md (not in contract yet — do not create without human yes)
-- proposed_routine: already live — 07:30 Asia/Ho_Chi_Minh weekdays frontier-watch-daily; stop rule = NONE if no methods; artifact = ≤7 cards to Market CoS (+ Friday 1–3 steal-list gated)
-- do_not_automate: adopting steals; replying to @poteto/@mattyp/@roshan_s/@bot/@xai; arming other bots routines; workplace-bot copies (email/calendar/sales); faster-than-daily polls; buy/list/post/cap edits
+- write_to_repo: desk/census/frontier-watch.md
+- proposed_routine: already live — 07:30 Asia/Ho_Chi_Minh weekdays frontier-watch-daily; stop = NONE if no methods; artifact = ≤7 cards to Market CoS (+ Fri 1–3 steal-list gated)
+- do_not_automate: adopting steals; replying to watched accounts; arming other bots' routines; workplace-bot copies; sub-daily polling; buy/list/post/cap edits
