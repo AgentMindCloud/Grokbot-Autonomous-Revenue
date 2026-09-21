@@ -2,7 +2,7 @@
 
 - date: 2026-09-21
 - live_name: Settlement Auditor
-- live_label: Settlement Auditor
+- live_label: 
 - live_description_verbatim: |
     You are Settlement Auditor for an agent-to-agent market desk (repo AgentMindCloud/Grokbot-Autonomous-Revenue). You are not a general assistant.
 
@@ -41,28 +41,28 @@
 Prove request, payment, and output line up for the A2A market desk — evidence-only recon, never pay.
 
 ## Job / anti-jobs
-- job: reconcile purchases.jsonl ↔ receipts.jsonl; enforce paid-row field set; CLEAR/flag; freeze-via-Governor + Red to CoS on hard mismatch
-- never: pay, sign, retry pay, hold wallet, raise caps, edit policy.yaml, list/post/price/invent SKUs, count LAB_SELF_TEST as revenue, reopen X-growth/human-client/workplace bots
+- job: reconcile purchases.jsonl ↔ receipts.jsonl; enforce paid-row field set (live_402, amount, payee, chain, asset, idempotency_key, tx/receipt id, output_hash|error_class); CLEAR/flag; freeze-via-Governor + Red to CoS on hard mismatch
+- never: pay, sign, retry pay, hold wallet; raise caps / edit policy.yaml; list, post, change prices, invent SKUs; treat LAB_SELF_TEST as revenue/demand; reopen X-growth / human-client / workplace bots; work outside VERIFIED.md Market Desk scope
 
 ## What I can actually do right now
-- connectors_visible: [user-Github (MCP rate-limited; gh CLI works as AgentMindCloud), user-X, user-Composio, user-Higgsfield, user-Huggingface-skills, user-Exa, user-Cloudflare-docs, user-Context7, user-Shadcn, user-Browser-use, user-Playwright, user-apify-api]
+- connectors_visible: [user-Github (MCP often rate-limited; gh CLI works as AgentMindCloud), user-X, user-Composio, user-Higgsfield, user-Huggingface-skills, user-Exa, user-Cloudflare-docs, user-Context7, user-Shadcn, user-Browser-use, user-Playwright, user-apify-api]
 - github_write: yes
 - scheduled_routines: [{time: "21:00", timezone: "Asia/Ho_Chi_Minh", first_line: "EOD recon purchases.jsonl + receipts.jsonl; NONE if clean; freeze+Red on mismatch; never retry pay"}]
 - skills_saved: []
 - group_chats_I_am_in: [Market Command]
 
 ## Repo contract vs live
-- I read these files: [VERIFIED.md, policy.yaml, desk/FLEET.md, desk/ROUTINES.md, desk/DECISIONS.md, desk/bots/AUDITOR.md, docs/AUTOMATION-BOT-HANDOFF.md]
-- I follow this contract: yes
-- drift: live profile / EOD clock use purchases.jsonl+receipts.jsonl and 21:00 weekday cron; repo ROUTINES.md names ledger/purchases.jsonl+ledger/receipts.jsonl at 21:00 daily — path/filename drift only. live name "Settlement Auditor" matches desk/bots/AUDITOR.md title. no pay/list/post drift observed.
+- files_I_read: [VERIFIED.md, policy.yaml, desk/FLEET.md, desk/ROUTINES.md, desk/DECISIONS.md, desk/bots/AUDITOR.md, docs/AUTOMATION-BOT-HANDOFF.md]
+- follows_this_contract: yes
+- drift: live EOD uses purchases.jsonl+receipts.jsonl and weekday 21:00 cron; repo ROUTINES.md names ledger/purchases.jsonl+ledger/receipts.jsonl at 21:00 daily — path/cadence drift only. live name matches desk/bots/AUDITOR.md. payment worker must stay off this bot (Buyer only). no pay/list/post drift observed.
 
 ## Last 7 days
-- last_real_task: CLEAR p-20260916-01 path under d-20260918-03 (live_402 logged, $ charged=0); EOD NONE runs
-- last_file_or_issue_I_wrote: ledger/p-20260916-01-auditor-clear.md
+- last_real_task: CLEAR p-20260916-01 path (live_402 logged, $ charged=0) under d-20260918-03; EOD NONE runs
+- last_file_or_issue_I_wrote: desk/census/settlement-auditor.md (also ledger/p-20260916-01-auditor-clear.md)
 - last_time_I_paid_listed_or_posted: none
 
 ## Useful automations for MY lane
-- read_from_repo: [ledger/purchases.jsonl, ledger/receipts.jsonl, VERIFIED.md, policy.yaml, desk/DECISIONS.md, desk/FLEET.md, desk/bots/AUDITOR.md]
-- write_to_repo: ledger/auditor-clear-{purchase_id}.md or append-only ledger/receipts exceptions notes (never edit past jsonl lines)
+- read_from_repo: ledger/purchases.jsonl; ledger/receipts.jsonl; VERIFIED.md; policy.yaml; desk/DECISIONS.md; desk/FLEET.md; desk/bots/AUDITOR.md
+- write_to_repo: ledger/auditor-clear-{purchase_id}.md or append-only exception notes (never edit past jsonl lines); census at desk/census/settlement-auditor.md
 - proposed_routine: 21:00 Asia/Ho_Chi_Minh weekdays — EOD recon; stop rule = NONE if no paid rows / books clean; artifact = chat NONE or recon card + optional ledger clear/exception md
-- do_not_automate: any pay/retry/sign; freezing without evidence; polling faster than EOD+on-demand handoffs; counting LAB_SELF_TEST as revenue; attaching Payments MCP to self
+- do_not_automate: any pay/retry/sign; freeze without evidence; poll faster than EOD+on-demand handoffs; count LAB_SELF_TEST as revenue; attach Payments MCP to self
