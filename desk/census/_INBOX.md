@@ -156,6 +156,7 @@
 
 # INBOX 2026-09-21T09:43:45Z
 - files: none
+
 - new_ids: none
 - human_needed: no
 - reason: Green — only desk/census/_INBOX.md changed; no ledger/*.jsonl lines in this push.
@@ -345,3 +346,9 @@
 - new_ids: none
 - human_needed: no
 - reason: Green — only desk/census/_INBOX.md changed; no ledger/*.jsonl lines in this push.
+
+# INBOX 2026-09-22T00:53:00Z
+- files: none
+- new_ids: none
+- human_needed: no
+- reason: Green — only desk/cards/2026-09-22-watch.md added; no ledger/*.jsonl lines in this push.
