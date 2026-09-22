@@ -1,0 +1,16 @@
+# ROLLUP — 2026-09-22 Asia/Ho_Chi_Minh
+- paid_rows_today: 0
+- sku0_health: last seller card 2026-09-21 = HTTP 200, mock=false, v0.2.0; public=false; 0 paid fulfillment; inspect cleared; list hold until 10 reconciled LAB_SELF_TEST + human yes; today 09:30 health not due yet
+- red: []
+- amber:
+  - Seller: analytics/mcp-calls.jsonl still box-local, not in repo
+  - Lab: tue/wed batch enabled, never ran (last score 2026-09-16 inspect-only)
+  - SKU-0 Fix: live profile still DISARMED vs d-20260918-02 ARMED
+  - Buyer: pay parked (no gas/fund; no new named pay card)
+- green:
+  - Auditor EOD 2026-09-21 CLEAN (paid_rows 0, receipts 0)
+  - Protocol Scout present; weekly deep 2026-09-21 routed to CoS
+  - Buyer / Governor / Canon follow contract
+- missing_census: []
+- out_of_desk_live: [Agent Zero, Money Maker Bot, X Growth Coach]
+- do_not_count_as_revenue: any lab_self_test
