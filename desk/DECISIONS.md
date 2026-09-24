@@ -18,17 +18,18 @@ Human is only for Red items not already decided here.
 | Arm canary→fix fleet bot (SKU-0 Fix)? | **Yes** (d-20260918-02). Still never pay/list. | Human pause/disarm |
 | Money Maker / other chat bots fund or send desk USDC? | **No** | Permanent — payment worker connector only |
 | 23 Sep novel payees + kronos | **Accepted** (d-20260924-01..05). Not a pay. | Pay still needs its own card |
+| Who may message the human? | **Market CoS only.** Never ping unless Settlement Auditor wrote CLEAN or FAIL on a **new** ledger file, or `desk/queue/HUMAN.md` has a **new** must-line. Max one message per event. No widgets unless Red. Specialists write the repo or message CoS — never the human. NONE is valid. | Permanent (NOTIFY RULE 2026-09-24) |
 
 ## Who answers who
 
 Specialists ask **Desk Canon** for policy facts.
 Desk Canon cites the repo. It does not assign work.
 **Market CoS** routes work and builds the queue using Canon's answers.
-Human only if Canon returns UNKNOWN.
+Human only if Canon returns UNKNOWN — and only under the NOTIFY RULE above.
 
 ## If Canon / CoS is unsure
 
 Output:
 1. Recommended default from this table
 2. Source path
-3. One yes/no for the human only when the table says human yes
+3. One yes/no for the human only when the table says human yes **and** the NOTIFY RULE gate is met
