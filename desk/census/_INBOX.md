@@ -1,3 +1,9 @@
+# INBOX 2026-09-24T01:03:10Z
+- files: none
+- new_ids: none
+- human_needed: no
+- reason: Green — push f1caadf only changed desk/census/_INBOX.md; no ledger/*.jsonl lines.
+
 # INBOX 2026-09-24T01:03:00Z
 - files: none
 - new_ids: none
