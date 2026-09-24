@@ -1,3 +1,9 @@
+# INBOX 2026-09-24T00:55:00Z
+- files: none
+- new_ids: none
+- human_needed: no
+- reason: Green — push a77d533 only appended desk/census/_INBOX.md; no ledger/*.jsonl lines.
+
 # INBOX 2026-09-24T00:54:30Z
 - files: none
 - new_ids: none
