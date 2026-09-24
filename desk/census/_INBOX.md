@@ -1,5 +1,5 @@
 # INBOX 2026-09-24T14:18:00Z
-- files: ledger/eod-2026-09-24.md (no ledger/*.jsonl in this push)
-- new_ids: none in jsonl; eod cites p-20260924-01, rc-20260924-01
+- files: none (ledger/*.jsonl)
+- new_ids: none
 - human_needed: no
-- reason: Green — EOD CLEAN, mismatches []; no new payee/listing/refund/cap/settlement mismatch.
+- reason: Green — push b47ae61 only updated desk/census/_INBOX.md; no ledger/*.jsonl lines.
