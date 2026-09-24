@@ -1,3 +1,9 @@
+# INBOX 2026-09-24T12:22:00Z
+- files: ledger/decisions.jsonl
+- new_ids: d-20260924-01, d-20260924-02, d-20260924-03, d-20260924-04, d-20260924-05, d-20260924-06
+- human_needed: yes
+- reason: Red — new payees (apitoll, quotient, solenrich, x402-seller, kronos) + one-shot pay unlock p-20260924-01. Not a pay. No listing/refund/cap/settlement mismatch in this push.
+
 # INBOX 2026-09-24T02:50:00Z
 - files: none (ledger/*.jsonl)
 - new_ids: none
