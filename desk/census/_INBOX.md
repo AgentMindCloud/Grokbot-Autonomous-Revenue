@@ -165,3 +165,9 @@
 - new_ids: d-20260925-01, d-20260925-02, d-20260925-03, d-20260925-04
 - human_needed: yes
 - reason: Red — new payees ACCEPT celerapi/anchor-x402/blockrun; HOLD glim (Solana USDC new_chain). Not pays. No listing/refund/cap/settlement.
+
+# INBOX 2026-09-25T02:04:00+07:00
+- files: none (ledger/*.jsonl)
+- new_ids: none
+- human_needed: no
+- reason: Green — push abb19c76 only updated desk/queue/HUMAN.md; no ledger/*.jsonl lines.
