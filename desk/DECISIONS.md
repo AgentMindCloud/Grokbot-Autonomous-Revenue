@@ -1,6 +1,6 @@
 # Standing decisions — CoS and Desk Canon read this before asking the human
 
-Updated: 2026-09-18
+Updated: 2026-09-24
 Human is only for Red items not already decided here.
 
 ## Defaults (week 1)
@@ -11,12 +11,13 @@ Human is only for Red items not already decided here.
 | Lift SKU-0 public / X / directory hold? | **No.** | 10 reconciled LAB_SELF_TEST receipts + human yes |
 | Inspect-only on SKU-0? | **Cleared 2026-09-18** (Auditor: live 402 logged, $ charged = 0). Card `p-20260916-01`. | — |
 | Attach Payment MCP? | **Yes — Buyer Desk only** (d-20260918-04). Never attach to CoS, Seller, Lab, Governor, Canon, SKU-0 Fix. | Eggbot wires `buyer_payment_worker` |
-| Run $0.02 self-canary / any pay? | **No** until human yes on a **new pay card** + Governor gate | Separate named yes per pay |
+| Run $0.02 self-canary / any pay? | **Yes — one shot only** on card `ledger/p-20260924-01-sku0-canary.md` (d-20260924-06). Governor ALLOW required. Not autopay. | This card only |
 | New SKUs / TA / human clients / skill packs | **No** | Scope lock in VERIFIED.md |
 | Auto-pay? | **No** | 5 clean canaries on exact seller+sku+chain+asset |
 | Adopt workplace bots from Watch? | **Never** | Permanent |
 | Arm canary→fix fleet bot (SKU-0 Fix)? | **Yes** (d-20260918-02). Still never pay/list. | Human pause/disarm |
 | Money Maker / other chat bots fund or send desk USDC? | **No** | Permanent — payment worker connector only |
+| 23 Sep novel payees + kronos | **Accepted** (d-20260924-01..05). Not a pay. | Pay still needs its own card |
 
 ## Who answers who
 
