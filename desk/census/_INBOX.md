@@ -176,4 +176,4 @@
 - files: none (ledger/*.jsonl)
 - new_ids: none
 - human_needed: no
-- reason: Green — push 2bae34d only updated desk/census/_INBOX.md; no ledger/*.jsonl lines.
+- reason: Green — push cbf4a309 only updated desk/census/_INBOX.md; no ledger/*.jsonl lines.
