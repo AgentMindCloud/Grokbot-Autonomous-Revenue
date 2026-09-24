@@ -160,8 +160,8 @@
 - human_needed: no
 - reason: Green — push dad0829 only updated desk/census/_INBOX.md; no ledger/*.jsonl lines.
 
-# INBOX 2026-09-24T19:03:00Z
-- files: none (ledger/*.jsonl)
-- new_ids: none
-- human_needed: no
-- reason: Green — push 7afc126 only updated desk/DECISIONS.md (d-20260925-01..04); no ledger/*.jsonl lines.
+# INBOX 2026-09-25T02:03:00+07:00
+- files: ledger/decisions.jsonl
+- new_ids: d-20260925-01, d-20260925-02, d-20260925-03, d-20260925-04
+- human_needed: yes
+- reason: Red — new payees ACCEPT celerapi/anchor-x402/blockrun; HOLD glim (Solana USDC new_chain). Not pays. No listing/refund/cap/settlement.
