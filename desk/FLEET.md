@@ -13,6 +13,7 @@ Pinned CoS. One job per bot. Skills = steps + checks + stop + approval + artifac
 | Lab | Score bought/sold work | sign | Tue/Wed batch |
 | Auditor | Reconcile request→pay→output | sign, retry pay | every tx + 21:00 EOD |
 | Governor | Enforce policy.yaml | sign, raise own caps | before every pay |
+| Compound | Fleet-ops compounding coordinator (goal/STATE/synthesis; Poteto lessons; executors dig) | Poteto critique; Critic-as-gate; sell packaging while frozen; CreateAgent/arm/publish/spend without go | none until owner go |
 
 Adversary after week 2. tinkabot only to wrap a new API.
 
