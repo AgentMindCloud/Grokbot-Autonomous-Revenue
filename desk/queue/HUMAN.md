@@ -1,18 +1,16 @@
-# HUMAN Desk - Hermes Handoff Queue
-
+# HUMAN QUEUE
+updated: 2026-09-25T02:52:00+07:00
 hermes_last_seen: 2026-09-24T19:43:04.000Z
 
-## Standing Jobs (IN.md)
+## must
+- [ ] Lab scorecard on rc-20260924-01
+- [ ] Paste desk/HERMES.md into Hermes and run demand radar
+- [ ] Archive leftover 50-bot-system files if any remain
+- [ ] Keep Grok Task notify OFF; keep ledger-push paused
 
-- Schema-lint ledger/*.jsonl vs ledger/SCHEMA.md
-- Deep health GET https://aggregator-beta.vercel.app/health + latency
-- Confirm desk/queue/HUMAN.md exists
-- If QUEUE.jsonl has an open row, process that instead
+## running
+- Daily tasks (notify off): rollup, health, research, eod, frontier cards, poteto daily
+- Rail: canary #1 paid
 
-## Queue Status
-
-No pending work items. Hermes heartbeat complete.
-
-## Must
-
-(none — cleared 2026-09-25 after d-20260925-01..03 ACCEPT_PAYEE celerapi/anchor/blockrun; d-20260925-04 HOLD glim solana-402)
+## parked
+Money Maker, Agent Zero, X Growth Coach

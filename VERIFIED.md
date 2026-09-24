@@ -1,46 +1,29 @@
-# VERIFIED — Market Desk freeze point
+# VERIFIED — Market Desk 2026-09-25
 
-Date: 2026-09-16
-Source: repo state + Master Synthesis 2026-09-15 + LOOP-TEST log
-Rule: only facts below are treated as true. Ranked playbooks are hypotheses.
+Rule: only facts below are treated as true.
 
-## Live seller
+## Mission
+Find products **other agents pay for** (Base USDC / x402). SKU-0 is the rail, not the company.
 
+Three fronts:
+1. Rail — inspect, pay under cap, receipt, score
+2. Demand radar — who got paid on-chain / live 402 fills, not catalog listings
+3. Gap build — at most one new SKU after radar shows external repeat spend
+
+## Live seller (SKU-0)
 - URL: https://aggregator-beta.vercel.app
-- Health: 200, mock=false, v0.2.0 (confirmed 2026-09-14 and 2026-09-15)
+- Health: 200, mock=false, v0.2.0
 - Tiers: $0.02 search / $0.10 synthesis, Base USDC
-- Probe: POST /mcp web_search returns HTTP 402
-- Sample: GET /api/sample 200 (2026-09-14)
+- Public: false until 10 reconciled LAB_SELF_TEST + 5 external paid calls + human yes
 
-## Not true yet
+## Money facts
+- First self-canary PAID 2026-09-24: card p-20260924-01, receipt rc-20260924-01, tx 0x126454b6fdbd9691bf62cc6b7578ceee72882024b8aaf5283818b025da933d71, $0.02 USDC Base, lab_self_test. Not revenue.
+- Buyer worker: 0xB56Bf6B023E94D2059Da1F86b70A90b73333C15B (Base)
+- Caps: $0.25/call, $5/session, $10/day, hot $25. No autopay.
+- ledger-push-cos-note GitHub trigger: PAUSED (commit loop).
 
-- `analytics/mcp-calls.jsonl` did not exist as of 2026-09-15
-- 0 paid rows recorded in this repo
-- No listing on botdirectory.ai or grokbot.money as of 2026-09-15
-- X teaser + 48h demand experiment: unshipped since 2026-09-04
-- No on-chain dogfood receipt filed here
-- First non-self paid call: has not happened
+## Out of scope unless human names a front-3 card
+Workplace bots, X-growth fleet, 50-bot hierarchy, Whop, TA confluence SKU, skill packs as products.
 
-## LOOP-TEST
-
-- #1 PASS + AUDIT CONFIRMED (2026-09-14): infra live, jsonl missing
-- #2 PASS + AUDIT CONFIRMED (2026-09-15): tiers live, jsonl missing, no public listing
-
-## Scope lock (2026-09-16)
-
-This repo is now the **A2A Market Desk** control plane.
-
-Out of scope: workplace bots, X growth fleet, human $200–1k clients, TA confluence SKU, 50-bot hierarchy, Whop, skill packs before a reconciled receipt.
-
-In scope: discover, inspect, buy/sell under cap, score fulfillment, compound.
-
-## SKU-0
-
-`agent-search-pro` on aggregator-beta is the existing seller endpoint.
-It stays private until:
-
-1. mcp-calls.jsonl exists and is appended on every call
-2. Lab self-canary tagged LAB_SELF_TEST is reconciled by Auditor
-3. Human approves any public listing or X teaser
-
-Do not rebuild the endpoint. Do not count self-tests as demand.
+## Do not count as demand
+Any lab_self_test / SKU-0 self-pay.
