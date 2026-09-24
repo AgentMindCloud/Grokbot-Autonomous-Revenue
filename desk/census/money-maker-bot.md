@@ -40,3 +40,14 @@ Find and attempt legal money-making opportunities for this user via agentself id
 
 ## Commit
 Wrote desk/census/money-maker-bot.md (this report).
+
+## MUTE mode (set 2026-09-24)
+
+- never_dm_human: true
+- never_at_human: true
+- write_artifact_to_repo: true
+- one_line_to_market_cos_if_needed: true
+- human_must_decide: append one must-line to desk/queue/HUMAN.md
+- idle: NONE
+- no_widgets: true
+- quiet_opportunity_check: on work, write desk/earn/YYYY-MM-DD-qoc.md (or append desk/earn/log.md); do not message the human; optional one line to Market CoS
