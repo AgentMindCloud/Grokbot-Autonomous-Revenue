@@ -183,3 +183,9 @@
 - new_ids: none
 - human_needed: no
 - reason: Green — push 5e06322 only updated desk/census/_INBOX.md; no ledger/*.jsonl lines.
+
+# INBOX 2026-09-25T02:10:30+07:00
+- files: none (ledger/*.jsonl)
+- new_ids: none
+- human_needed: no
+- reason: Green — push 996ae91c only updated desk/census/_INBOX.md; no ledger/*.jsonl lines.
