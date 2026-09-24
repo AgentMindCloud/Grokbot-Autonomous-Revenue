@@ -1,6 +1,6 @@
 # Standing decisions — CoS and Desk Canon read this before asking the human
 
-Updated: 2026-09-24
+Updated: 2026-09-25
 Human is only for Red items not already decided here.
 
 ## Defaults (week 1)
@@ -19,6 +19,7 @@ Human is only for Red items not already decided here.
 | Money Maker / other chat bots fund or send desk USDC? | **No** | Permanent — payment worker connector only |
 | 23 Sep novel payees + kronos | **Accepted** (d-20260924-01..05). Not a pay. | Pay still needs its own card |
 | HUMAN.md novel-accept batch (nansen/omni/lonestar/agentservices/glassnode/voidfeed) | **Accepted** (d-20260924-08..13). Not a pay. Must-lines cleared. | Pay still needs its own card |
+| HUMAN.md novel-accept batch (celerapi/anchor/blockrun; hold glim) | **Accepted** celerapi/anchor/blockrun (d-20260925-01..03). **HOLD** glim (d-20260925-04, live 402 Solana / new_chain). Not pays. Must-lines cleared. | Pay still needs its own card; glim needs Base live 402 or named new_chain yes |
 | Who may message the human? | **Market CoS only.** Never ping unless Settlement Auditor wrote CLEAN or FAIL on a **new** ledger file, or `desk/queue/HUMAN.md` has a **new** must-line. Max one message per event. No widgets unless Red. Specialists write the repo or message CoS — never the human. NONE is valid. | Permanent (NOTIFY RULE 2026-09-24) |
 
 ## Who answers who
