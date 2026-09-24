@@ -1,11 +1,5 @@
-# INBOX 2026-09-24T12:26:30Z
+# INBOX 2026-09-24T12:26:45Z
 - files: none (ledger/*.jsonl)
 - new_ids: none
 - human_needed: no
-- reason: Green — push 64fc915e only updated desk/census/_INBOX.md; no ledger/*.jsonl lines.
-
-# INBOX 2026-09-24T12:25:45Z
-- files: none (ledger/*.jsonl)
-- new_ids: none
-- human_needed: no
-- reason: Green — push 99c0336c only updated desk/census/_INBOX.md; no ledger/*.jsonl lines.
+- reason: Green — push b9f4994 only updated desk/census/_INBOX.md; no ledger/*.jsonl lines.
