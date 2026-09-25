@@ -21,6 +21,7 @@ Human is only for Red items not already decided here.
 | HUMAN.md novel-accept batch (nansen/omni/lonestar/agentservices/glassnode/voidfeed) | **Accepted** (d-20260924-08..13). Not a pay. Must-lines cleared. | Pay still needs its own card |
 | HUMAN.md novel-accept batch (celerapi/anchor/blockrun; hold glim) | **Accepted** celerapi/anchor/blockrun (d-20260925-01..03). **HOLD** glim (d-20260925-04, live 402 Solana / new_chain). Not pays. Must-lines cleared. | Pay still needs its own card; glim needs Base live 402 or named new_chain yes |
 | Novel payees r-20260924-e01..e05 | **Accepted** tick/geoprimitives/base-gas/x402atlas (d-20260925-08..10,12). **HOLD** svm402 (d-20260925-11, Solana/new_chain). Supersedes skip-HOLD d-20260925-07. Not pays. | Pay still needs its own card |
+| Novel payees r-20260925-d01..d05 | **Accepted** agent-commerce-factory / lionx402 / ozmium / aiagentoracle / agentmercantile (d-20260925-13..17). Not pays. Must-lines cleared. | Pay still needs its own card |
 | Who may message the human? | **Market CoS only.** Never ping unless Settlement Auditor wrote CLEAN or FAIL on a **new** ledger file, or `desk/queue/HUMAN.md` has a **new** must-line. Max one message per event. No widgets unless Red. Specialists write the repo or message CoS — never the human. NONE is valid. | Permanent (NOTIFY RULE 2026-09-24) |
 
 ## Who answers who
