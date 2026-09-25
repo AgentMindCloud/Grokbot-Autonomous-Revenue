@@ -1,6 +1,6 @@
-# ROLLUP — 2026-09-24 Asia/Ho_Chi_Minh
+# ROLLUP — 2026-09-25 Asia/Ho_Chi_Minh
 - paid_rows_today: 0
-- sku0_health: last seller card 2026-09-21 = HTTP 200, mock=false, v0.2.0; public=false; 0 paid fulfillment; inspect cleared; list hold until 10 reconciled LAB_SELF_TEST + human yes; today 09:30 health not due yet
+- sku0_health: HTTP 200, mock=false, v0.2.0; public=false; 1 lab_self_test paid canary 2026-09-24 (p-20260924-01 / rc-20260924-01, $0.02, not revenue); list hold until 10 reconciled LAB_SELF_TEST + 5 external paid + human yes
 - red: NONE
 - amber: NONE
 - green: NONE
