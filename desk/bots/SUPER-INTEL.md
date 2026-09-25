@@ -29,3 +29,4 @@ Never DM / @ the human. No widgets. Write artifacts to repo. One line to Market 
 
 ## Idle
 Quiet until next Scout ESCALATE or HUMAN must-line.
+2026-09-25 ~09:37: Scout NEW L12 Projects+pstack parallel → draft filed; Compound handoff; no adopt/CreateAgent. Card: `desk/cards/super-intel-2026-09-25-l12.md`.
