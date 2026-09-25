@@ -7,7 +7,7 @@ Human is only for Red items not already decided here.
 
 | Question | Answer | Until |
 |---|---|---|
-| Which Frontier steals to adopt? | **Named yes only.** Adopted 2026-09-18: sku-0 canary→fix fleet. All other steals None. | Next Friday steal-list + explicit human yes per item |
+| Which Frontier steals to adopt? | **Named yes only.** Adopted 2026-09-18: sku-0 canary→fix fleet. **2026-09-25 Projects+pstack: HOLD** (d-20260925-05; ask skipped / silent default). All other steals None. | Next Friday steal-list + explicit human yes per item |
 | Lift SKU-0 public / X / directory hold? | **No.** | 10 reconciled LAB_SELF_TEST receipts + human yes |
 | Inspect-only on SKU-0? | **Cleared 2026-09-18** (Auditor: live 402 logged, $ charged = 0). Card `p-20260916-01`. | — |
 | Attach Payment MCP? | **Yes — Buyer Desk only** (d-20260918-04). Never attach to CoS, Seller, Lab, Governor, Canon, SKU-0 Fix. | Eggbot wires `buyer_payment_worker` |
