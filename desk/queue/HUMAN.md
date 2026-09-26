@@ -1,5 +1,5 @@
 # HUMAN QUEUE
-updated: 2026-09-26T13:30:00+07:00
+updated: 2026-09-26T13:43:00+07:00
 hermes_last_seen: 2026-09-26T13:27:00+07:00
 
 ## must
@@ -9,11 +9,12 @@ hermes_last_seen: 2026-09-26T13:27:00+07:00
 - [x] Lab scorecard on rc-20260924-01 — already filed t-20260924-01 q=0.9 hold scale
 - [x] Frontier Friday steal Projects+pstack — ACCEPT trial d-20260925-06 (named yes; supersedes HOLD d-05; no new bots; Buyer-only pay)
 - [x] Novel payees r-20260924-e01..e05 — ACCEPT tick/geo/base-gas/x402atlas d-08..10,12; HOLD svm402 d-11 (named yes; not pays)
+- [x] Standing Buyer draft exact-match SKU-0 $0.02 canary cards — d-20260926-01 (named yes; not autopay)
 - [x] Novel payees r-20260925-d01..d05 — ACCEPT agent-commerce-factory/lionx402/ozmium/aiagentoracle/agentmercantile d-13..17 (named yes; not pays)
 
 ## running
 - Daily tasks (notify off): rollup, health, research, eod, frontier cards, poteto daily
-- Rail: canary #1 paid; canary #2 needs new pay card
+- Rail: canary #1 paid; standing d-20260926-01 — Buyer drafts exact-match $0.02 canary cards; CoS unlocks one-shot; Governor gates
 - Frontier trial: Projects+pstack capped per d-20260925-06 (repo methods; one project/space; local workers)
 
 ## parked
