@@ -1,5 +1,5 @@
 # HUMAN QUEUE
-updated: 2026-09-26T13:43:00+07:00
+updated: 2026-09-26T13:52:00+07:00
 hermes_last_seen: 2026-09-26T13:27:00+07:00
 
 ## must
@@ -11,6 +11,7 @@ hermes_last_seen: 2026-09-26T13:27:00+07:00
 - [x] Novel payees r-20260924-e01..e05 — ACCEPT tick/geo/base-gas/x402atlas d-08..10,12; HOLD svm402 d-11 (named yes; not pays)
 - [x] Standing Buyer draft exact-match SKU-0 $0.02 canary cards — d-20260926-01 (named yes; not autopay)
 - [x] Novel payees r-20260925-d01..d05 — ACCEPT agent-commerce-factory/lionx402/ozmium/aiagentoracle/agentmercantile d-13..17 (named yes; not pays)
+- [x] Merge lab scorecard PR #6 (t-20260926-01 / rc-20260926-01 hold lab_self_test) → main — https://github.com/AgentMindCloud/Grokbot-Autonomous-Revenue/pull/6 (done: CoS merged #6)
 
 ## running
 - Daily tasks (notify off): rollup, health, research, eod, frontier cards, poteto daily
