@@ -1,10 +1,10 @@
 # HUMAN QUEUE
-updated: 2026-09-26T13:27:00+07:00
+updated: 2026-09-26T13:30:00+07:00
 hermes_last_seen: 2026-09-26T13:27:00+07:00
 
 ## must
 - [x] Paste desk/HERMES.md into Hermes and run demand radar (human: done 2026-09-26)
-- [ ] Archive leftover 50-bot-system files if any remain (in progress: cloud agent PR)
+- [x] Archive leftover 50-bot-system → archive/50-bot-system/ (14 files; commit 58a2067; README says do not revive)
 - [x] Keep Grok Task notify OFF; keep ledger-push paused (standing)
 - [x] Lab scorecard on rc-20260924-01 — already filed t-20260924-01 q=0.9 hold scale
 - [x] Frontier Friday steal Projects+pstack — ACCEPT trial d-20260925-06 (named yes; supersedes HOLD d-05; no new bots; Buyer-only pay)
