@@ -1,6 +1,6 @@
 # Standing decisions — CoS and Desk Canon read this before asking the human
 
-Updated: 2026-09-25
+Updated: 2026-09-26
 Human is only for Red items not already decided here.
 
 ## Defaults (week 1)
@@ -12,6 +12,7 @@ Human is only for Red items not already decided here.
 | Inspect-only on SKU-0? | **Cleared 2026-09-18** (Auditor: live 402 logged, $ charged = 0). Card `p-20260916-01`. | — |
 | Attach Payment MCP? | **Yes — Buyer Desk only** (d-20260918-04). Never attach to CoS, Seller, Lab, Governor, Canon, SKU-0 Fix. | Eggbot wires `buyer_payment_worker` |
 | Run $0.02 self-canary / any pay? | **Yes — one shot only** on card `ledger/p-20260924-01-sku0-canary.md` (d-20260924-06). Governor ALLOW required. Not autopay. Key spent (d-20260924-07). | Further pays need new card |
+| Standing: Buyer drafts next exact-match SKU-0 $0.02 canary cards? | **Yes** (d-20260926-01). Exact match only: same seller/sku/endpoint/payee/chain/asset as p-20260924-01; max $0.02; live 402; lab_self_test. Buyer drafts card → CoS UNLOCK_PAY one-shot → Governor ALLOW → Buyer pays once. Not autopay. Not novel payees. | Until human pause; autopay still needs 5 clean canaries |
 | New SKUs / TA / human clients / skill packs | **No** | Scope lock in VERIFIED.md |
 | Auto-pay? | **No** | 5 clean canaries on exact seller+sku+chain+asset |
 | Adopt workplace bots from Watch? | **Never** | Permanent |
