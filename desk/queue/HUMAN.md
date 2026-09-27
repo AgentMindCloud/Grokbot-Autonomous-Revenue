@@ -1,5 +1,5 @@
 # HUMAN QUEUE
-updated: 2026-09-27T09:30:00+07:00
+updated: 2026-09-27T09:50:00+07:00
 hermes_last_seen: 2026-09-26T13:27:00+07:00
 
 ## must
@@ -11,11 +11,14 @@ hermes_last_seen: 2026-09-26T13:27:00+07:00
 - [x] Novel payees r-20260924-e01..e05 — ACCEPT tick/geo/base-gas/x402atlas d-08..10,12; HOLD svm402 d-11 (named yes; not pays)
 - [x] Standing Buyer draft exact-match SKU-0 $0.02 canary cards — d-20260926-01 (named yes; not autopay)
 - [x] Novel payees r-20260925-d01..d05 — ACCEPT agent-commerce-factory/lionx402/ozmium/aiagentoracle/agentmercantile d-13..17 (named yes; not pays)
+- [x] Densify pack — d-20260927-06 (named yes; rail cascade #3–#10; research daily; hermes daily; 7d+midday cos; Demand Radar via Eggbot; daily friction; policy cuts HOLD)
 
 ## running
-- Daily tasks (notify off): rollup, health, research, eod, frontier cards, poteto daily
-- Rail: 2 paid canaries; **PACE d-20260927-01** — Buyer drafts exact-match $0.02 cards #3–#5 now; CoS unlocks one-shot after each prior CLEAR; Governor gates; ~$0.06; not autopay
-- Frontier trial: Projects+pstack capped per d-20260925-06 (repo methods; one project/space; local workers)
+- Daily: research Poteto→Super Intel→Compound; hermes demand radar; cos morning 7d + midday rail + friction 17:40
+- Rail cascade d-20260927-06: after Auditor CLEAR Buyer auto-drafts next exact-match $0.02 card; CoS auto-UNLOCK under d-20260926-01; Governor gate; not autopay; finish #3–#10 this week (~$0.16)
+- Pace superseded: d-20260927-01 (#3–#5) extended by densify to #10
+- Frontier trial: Projects+pstack capped per d-20260925-06
+- Demand Radar bot: Eggbot designing (cards to CoS; never pays)
 
 ## parked
 Money Maker, Agent Zero, X Growth Coach
