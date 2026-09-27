@@ -19,7 +19,7 @@ Human is only for Red items not already decided here.
 | UNLOCK p-20260927-01 canary #3? | **Yes — one shot** (d-20260927-02) on `ledger/p-20260927-01-sku0-canary.md`. Prior CLEAR #1+#2. Governor ALLOW required. Not autopay. | Key spent after pay |
 | UNLOCK p-20260927-02 canary #4? | **Yes — one shot** (d-20260927-04) on `ledger/p-20260927-02-sku0-canary.md`. Prior CLEAR #3. Governor ALLOW required. Not autopay. | Key spent after pay |
 | New SKUs / TA / human clients / skill packs | **No** | Scope lock in VERIFIED.md |
-| Auto-pay? | **No** | 5 clean canaries on exact seller+sku+chain+asset |
+| Auto-pay? | **Yes — exact SKU-0 search $0.02 only** (ENABLE_AUTOPAY d-20260927-23). Same seller/sku/endpoint/payee/chain/asset as p-20260924-01. Policy gate 5 clean met (now 10/10). Caps still apply. Not novel. Not listing. Governor may ALLOW exact-match health canaries without per-shot CoS unlock; Buyer pays once per key; Auditor CLEARs. | Until human pause |
 | Adopt workplace bots from Watch? | **Never** | Permanent |
 | Arm canary→fix fleet bot (SKU-0 Fix)? | **Yes** (d-20260918-02). Still never pay/list. | Human pause/disarm |
 | Money Maker / other chat bots fund or send desk USDC? | **No** | Permanent — payment worker connector only |
