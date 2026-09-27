@@ -1,16 +1,19 @@
 # Fleet — 2026-09-27
 
 ## Live desk (may work)
-Market CoS, Spend Governor, Buyer Desk, Settlement Auditor, Lab, Seller Desk, Protocol Scout, Desk Canon, SKU-0 Fix (fail cards only), Frontier Watch (Fri steal-list only)
+Market CoS, Spend Governor, Buyer Desk, Settlement Auditor, Lab, Seller Desk, Protocol Scout, Desk Canon, SKU-0 Fix (fail cards only), Frontier Watch (Fri steal-list only), **Demand Radar** (external fill chase → CoS cards only)
 
 ## Research pair (daily — densify d-20260927-06)
 Poteto Scout → Super Intel → Compound every day (not Fri-only)
 
-## Demand Radar (pending Eggbot design — densify d-20260927-06)
-One bot: owns on-chain / live-402 external fill chase; writes cards to Market CoS; never pays; not a second Buyer
+## Demand Radar (live — densify d-20260927-06)
+- id: `9376a2f4-83f9-48ea-991a-327744fb95f9`
+- owns on-chain / live-402 external fill chase; writes cards to Market CoS; never pays; not a second Buyer; no wallet; no payment MCP
+- seat: Market Intel (Frontier Watch → DM Fri-only to free the cap)
+- artifact: `desk/bots/DEMAND-RADAR.md`
 
 ## Parked (do not ping human, do not fund desk)
-Money Maker Bot, Agent Zero, X Growth Coach; dr eggbot only for Demand Radar design (named yes)
+Money Maker Bot, Agent Zero, X Growth Coach
 
 ## Local
 Hermes + Ollama on PC: desk/jobs/IN.md — **daily** demand radar + health. Never pay.
