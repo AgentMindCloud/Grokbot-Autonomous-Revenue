@@ -1,5 +1,5 @@
 # HUMAN QUEUE
-updated: 2026-09-26T13:43:00+07:00
+updated: 2026-09-27T09:30:00+07:00
 hermes_last_seen: 2026-09-26T13:27:00+07:00
 
 ## must
@@ -14,7 +14,7 @@ hermes_last_seen: 2026-09-26T13:27:00+07:00
 
 ## running
 - Daily tasks (notify off): rollup, health, research, eod, frontier cards, poteto daily
-- Rail: canary #1 paid; standing d-20260926-01 — Buyer drafts exact-match $0.02 canary cards; CoS unlocks one-shot; Governor gates
+- Rail: 2 paid canaries; **PACE d-20260927-01** — Buyer drafts exact-match $0.02 cards #3–#5 now; CoS unlocks one-shot after each prior CLEAR; Governor gates; ~$0.06; not autopay
 - Frontier trial: Projects+pstack capped per d-20260925-06 (repo methods; one project/space; local workers)
 
 ## parked
