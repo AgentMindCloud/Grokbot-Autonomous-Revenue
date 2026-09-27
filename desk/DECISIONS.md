@@ -15,6 +15,7 @@ Human is only for Red items not already decided here.
 | Standing: Buyer drafts next exact-match SKU-0 $0.02 canary cards? | **Yes** (d-20260926-01). Exact match only: same seller/sku/endpoint/payee/chain/asset as p-20260924-01; max $0.02; live 402; lab_self_test. Buyer drafts card → CoS UNLOCK_PAY one-shot → Governor ALLOW → Buyer pays once. Not autopay. Not novel payees. | Until human pause; autopay still needs 5 clean canaries |
 | Pace standing lane canaries #3–#5? | **Yes — draft now** (d-20260927-01). Buyer drafts exact-match $0.02 cards #3–#5 under d-20260926-01. CoS UNLOCK_PAY one-shot **after each prior Auditor CLEAR**; Governor ALLOW; Buyer pays once. ~$0.06 total. Not autopay. Not listing. | Until #5 CLEAR or human pause |
 | UNLOCK p-20260926-01 canary #2? | **Yes — one shot** (d-20260926-02) on `ledger/p-20260926-01-sku0-canary.md`. Governor ALLOW required. Not autopay. | Key spent after pay |
+| UNLOCK p-20260927-01 canary #3? | **Yes — one shot** (d-20260927-02) on `ledger/p-20260927-01-sku0-canary.md`. Prior CLEAR #1+#2. Governor ALLOW required. Not autopay. | Key spent after pay |
 | New SKUs / TA / human clients / skill packs | **No** | Scope lock in VERIFIED.md |
 | Auto-pay? | **No** | 5 clean canaries on exact seller+sku+chain+asset |
 | Adopt workplace bots from Watch? | **Never** | Permanent |
