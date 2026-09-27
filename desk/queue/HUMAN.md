@@ -1,5 +1,5 @@
 # HUMAN QUEUE
-updated: 2026-09-27T09:50:00+07:00
+updated: 2026-09-27T10:29:02+07:00
 hermes_last_seen: 2026-09-26T13:27:00+07:00
 
 ## must
@@ -11,13 +11,19 @@ hermes_last_seen: 2026-09-26T13:27:00+07:00
 - [x] Novel payees r-20260924-e01..e05 — ACCEPT tick/geo/base-gas/x402atlas d-08..10,12; HOLD svm402 d-11 (named yes; not pays)
 - [x] Standing Buyer draft exact-match SKU-0 $0.02 canary cards — d-20260926-01 (named yes; not autopay)
 - [x] Novel payees r-20260925-d01..d05 — ACCEPT agent-commerce-factory/lionx402/ozmium/aiagentoracle/agentmercantile d-13..17 (named yes; not pays)
-- [x] Densify pack — d-20260927-06 (named yes; rail cascade #3–#10; research daily; hermes daily; 7d+midday cos; Demand Radar via Eggbot; daily friction; policy cuts HOLD)
+- [x] Densify pack — d-20260927-06 (named yes; research daily; hermes daily; 7d+midday cos; Demand Radar via Eggbot; daily friction; policy cuts HOLD). Self-canary rail CLOSED 10/10.
+- [x] DEMAND_CADENCE — d-20260927-22 (named yes; Demand Radar + Hermes daily chase; CoS midday+friction must fire; refresh census/_ROLLUP; no new SKU; no listing; no X; densify rail CLOSED at #10)
+- [x] ENABLE_AUTOPAY — d-20260927-23 (named yes; exact-match SKU-0 search $0.02 only, same as p-20260924-01; gate 5 clean met, now 10/10; caps apply; not novel; not listing; Governor may ALLOW without per-shot CoS unlock; Buyer once per key; Auditor CLEARs)
+- [x] EXTERNAL_ONE_SHOT tick/all — d-20260927-24 (named yes; ONE card https://tick.hugen.tokyo/tick/all; payee 0x29322Ea7EcB34aA6164cb2ddeB9CE650902E4f60 verified vs demand-radar 0x29322Ea7…4f60 and d-20260925-08; max $0.005 Base USDC; card p-20260927-09 drafted pay:false; UNLOCK left to dedicated agent; not autopay; not a pay here)
 
 ## running
-- Daily: research Poteto→Super Intel→Compound; hermes demand radar; cos morning 7d + midday rail + friction 17:40
-- Rail cascade d-20260927-06: #5 CLEAR → unlock #6 (d-20260927-09); #7–#10 drafted locked; Governor gate; not autopay; finish #3–#10 (~$0.16)
-- Demand Radar live: cards → CoS; GO signal-driven; never pays
-- Amber demand evidence (not pays / not must): desk/cards/2026-09-27-demand-radar.md — tick/all, tick/symbols, blockrun events, nansen current-balance, x402atlas /trend (verify payTo). HOLD new-SKU pays per DECISIONS.
+- Demand cadence (d-20260927-22): Demand Radar + Hermes daily chase; CoS midday+friction must fire; refresh census/_ROLLUP; no new SKU; no listing; no X
+- Densify self-canary rail CLOSED 10/10 (p-20260927-08 CLEAR). Do not cascade further cards from d-20260927-06.
+- Auto-pay standing (d-20260927-23): exact-match SKU-0 search $0.02 only. Governor may ALLOW health canaries without per-shot CoS unlock. Buyer pays once per key. Auditor CLEARs.
+- External one-shot: ledger/p-20260927-09-tick-all.md drafted pay:false. UNLOCK_PAY belongs to the dedicated unlock agent. This queue does not pay.
+- Daily: research Poteto→Super Intel→Compound
+- Demand Radar live: cards → CoS; never pays
+- Other demand-radar paths are not standing pays (tick/latest, tick/symbols, blockrun events, nansen current-balance, x402atlas /trend). No new SKU. No listing.
 - Frontier trial: Projects+pstack capped per d-20260925-06
 
 ## parked
