@@ -15,10 +15,10 @@ hermes_last_seen: 2026-09-26T13:27:00+07:00
 
 ## running
 - Daily: research Poteto→Super Intel→Compound; hermes demand radar; cos morning 7d + midday rail + friction 17:40
-- Rail cascade d-20260927-06: after Auditor CLEAR Buyer auto-drafts next exact-match $0.02 card; CoS auto-UNLOCK under d-20260926-01; Governor gate; not autopay; finish #3–#10 this week (~$0.16)
-- Pace superseded: d-20260927-01 (#3–#5) extended by densify to #10
+- Rail cascade d-20260927-06: #5 CLEAR → unlock #6 (d-20260927-09); #7–#10 drafted locked; Governor gate; not autopay; finish #3–#10 (~$0.16)
+- Demand Radar live: cards → CoS; GO signal-driven; never pays
+- Amber demand evidence (not pays / not must): desk/cards/2026-09-27-demand-radar.md — tick/all, tick/symbols, blockrun events, nansen current-balance, x402atlas /trend (verify payTo). HOLD new-SKU pays per DECISIONS.
 - Frontier trial: Projects+pstack capped per d-20260925-06
-- Demand Radar bot: Eggbot designing (cards to CoS; never pays)
 
 ## parked
 Money Maker, Agent Zero, X Growth Coach
