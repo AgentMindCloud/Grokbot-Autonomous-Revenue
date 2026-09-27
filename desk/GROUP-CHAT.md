@@ -37,7 +37,7 @@ First work message:
 
 ## Room 2 — Market Intel
 
-Members: you, Market CoS, Desk Canon, Protocol Scout, Frontier Watch, Seller Desk
+Members: you, Market CoS, Desk Canon, Protocol Scout, Demand Radar, Seller Desk
 
 Pin:
 
@@ -46,7 +46,7 @@ Room: Market Intel. Repo: AgentMindCloud/Grokbot-Autonomous-Revenue.
 No payments in this room.
 
 @Protocol Scout = bazaar/protocol diffs + SKU-0 health backup
-@Frontier Watch = method cards only, no adopt
+@Demand Radar = external fill / live-402 demand cards → CoS only. Never pay.
 @Seller Desk = SKU-0 /health only. No listing. No X.
 @Desk Canon = policy
 @Market CoS = file cards onto the Command queue. Do not execute buys here.
@@ -57,6 +57,7 @@ Steals stay NONE until Friday list + human named yes.
 ## Who lives in DMs
 
 - Lab — you or CoS forwards a scored artifact into Command after a canary
+- Frontier Watch — Fri steal-list only (moved out of Intel for Demand Radar seat)
 - dr eggbot — design only, never money
 
 If a sixth bot seat opens in Command, add Lab.
