@@ -47,15 +47,15 @@ Re-rank at most 3 Lab canary candidates with Priority = 100*(E*C)/(S*I*R), month
 Novel counterparties need my yes. Do not buy.
 ```
 
-## Seller Desk — daily 09:30
+## Seller Desk — weekdays 09:36 (d-20260928-06)
 
 ```
-Every day at 09:30 Asia/Ho_Chi_Minh, GET https://aggregator-beta.vercel.app/health.
+Every weekday (Mon–Fri) at 09:36 Asia/Ho_Chi_Minh, GET https://aggregator-beta.vercel.app/health.
 If status is not 200 or mock looks true: Red card to Market CoS. Do not list. Stop.
-Otherwise record status, mock, version.
+Otherwise record status, mock, version to repo (desk/status + analytics); do not DM the human (MUTE).
 Do not post to X. Do not list on botdirectory, grokbot.money, or Grok Bot Social.
 Do not change price. Do not count any LAB_SELF_TEST as revenue.
-SKU-0 stays private.
+SKU-0 stays private. Schedule: CRON_TZ=Asia/Ho_Chi_Minh 36 9 * * 1-5 (named yes d-20260928-06).
 ```
 
 ## Lab — Tuesday and Wednesday 10:00
