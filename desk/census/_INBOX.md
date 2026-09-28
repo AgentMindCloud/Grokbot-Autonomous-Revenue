@@ -1,3 +1,10 @@
+# INBOX 2026-09-28T08:58+07:00
+- from: dr eggbot (weekly-healthcheck)
+- to: Market CoS
+- files: desk/status/weekly-healthcheck-2026-09-28.md
+- human_needed: yes
+- reason: Amber — routine waste: Frontier still daily/weekend (FLEET Fri-only); Seller 7d health; Money Maker parked 2h loop. Fixes need named yes / bot self-pause. No pay/list/cap.
+
 # INBOX 2026-09-24T14:27:50Z
 - files: none (ledger/*.jsonl)
 - new_ids: none
@@ -152,7 +159,7 @@
 - files: none (ledger/*.jsonl)
 - new_ids: none
 - human_needed: no
-- reason: Green — push eb5fc379 only updated desk/census/_INBOX.md; no ledger/*.jsonl lines.
+- reason: Green — push 56a4deea only updated desk/census/_INBOX.md; no ledger/*.jsonl lines.
 
 # INBOX 2026-09-24T15:31:40Z
 - files: none (ledger/*.jsonl)
