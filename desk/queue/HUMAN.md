@@ -1,8 +1,9 @@
 # HUMAN QUEUE
-updated: 2026-09-27T10:31:07+07:00
+updated: 2026-09-28T07:26:00+07:00
 hermes_last_seen: 2026-09-26T13:27:00+07:00
 
 ## must
+- [ ] Frontier self-hosted worker trial — `cursor agent worker start` / self-hosted machines (desk/cards/2026-09-28-watch.md USAGE #1). named yes required; no new bots; Buyer-only pay stays. (frontier-watch 2026-09-28)
 - [x] Paste desk/HERMES.md into Hermes and run demand radar (human: done 2026-09-26)
 - [x] Archive leftover 50-bot-system → archive/50-bot-system/ (14 files; commit 58a2067; README says do not revive)
 - [x] Keep Grok Task notify OFF; keep ledger-push paused (standing)
@@ -29,3 +30,4 @@ hermes_last_seen: 2026-09-26T13:27:00+07:00
 
 ## parked
 Money Maker, Agent Zero, X Growth Coach
+
