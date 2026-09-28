@@ -4,9 +4,9 @@ hermes_last_seen: 2026-09-26T13:27:00+07:00
 
 ## must
 - [ ] SKU-0 restore: grant Seller Desk the live aggregator-beta source (AgentMindCloud/agent-search-pro or current URL) + deploy/env access so sample→200 and paid→402 can be patched. Repo currently 404 to Seller. (seller-desk 2026-09-28; CoS GO on 2026-09-28-sku0-fix-fail)
-- [ ] weekly-healthcheck: Frontier Watch — pause daily/weekend frontier-watch-daily; keep Friday-only steal-list (FLEET Fri-only; cards still 7d incl Sat/Sun). named yes. (eggbot 2026-09-28)
-- [ ] weekly-healthcheck: Seller Desk — seller-desk-daily-health 7d→weekdays 1-5 only. named yes. (eggbot 2026-09-28; open since 2026-09-21)
-- [ ] weekly-healthcheck: Money Maker Bot — pause/disable Quiet opportunity `0 */2 * * *` leftover (parked; AUTOMATIONS forbids 2h loop). named yes or bot self-pause. (eggbot 2026-09-28)
+- [x] weekly-healthcheck: Frontier Watch — pause daily/weekend frontier-watch-daily; keep Friday-only steal-list (FLEET Fri-only; cards still 7d incl Sat/Sun). YES d-20260928-06 (named 2026-09-28T20:44+07). (eggbot 2026-09-28)
+- [x] weekly-healthcheck: Seller Desk — seller-desk-daily-health 7d→weekdays 1-5 only. YES d-20260928-06 (named 2026-09-28T20:44+07; open since 2026-09-21). (eggbot 2026-09-28)
+- [x] weekly-healthcheck: Money Maker Bot — pause/disable Quiet opportunity `0 */2 * * *` leftover (parked; AUTOMATIONS forbids 2h loop). YES d-20260928-06 (named 2026-09-28T20:44+07). (eggbot 2026-09-28)
 - [x] Frontier self-hosted worker trial — `cursor agent worker start` / self-hosted machines (desk/cards/2026-09-28-watch.md USAGE #1). HOLD d-20260928-01 until friday frontier list (named 2026-09-28); no trial start; no new bots; Buyer-only pay stays. (frontier-watch 2026-09-28)
 - [x] Paste desk/HERMES.md into Hermes and run demand radar (human: done 2026-09-26)
 - [x] Archive leftover 50-bot-system → archive/50-bot-system/ (14 files; commit 58a2067; README says do not revive)
@@ -21,18 +21,23 @@ hermes_last_seen: 2026-09-26T13:27:00+07:00
 - [x] ENABLE_AUTOPAY — d-20260927-23 (named yes; exact-match SKU-0 search $0.02 only, same as p-20260924-01; gate 5 clean met, now 10/10; caps apply; not novel; not listing; Governor may ALLOW without per-shot CoS unlock; Buyer once per key; Auditor CLEARs)
 - [x] EXTERNAL_ONE_SHOT tick/all — d-20260927-24 (named yes; ONE card https://tick.hugen.tokyo/tick/all; payee 0x29322Ea7EcB34aA6164cb2ddeB9CE650902E4f60 verified vs demand-radar and d-20260925-08; max $0.005 Base USDC; not autopay)
 - [x] UNLOCK_PAY p-20260927-09 — d-20260927-25 (one-shot; card pay:true; Buyer pays once after Governor ALLOW; NOT autopay; NOT lab_self_test; not a pay in the decision row)
+- [x] EXTERNAL_ONE_SHOT tick/latest — d-20260928-02 (named yes; ONE card https://tick.hugen.tokyo/tick/latest; payee 0x29322Ea7EcB34aA6164cb2ddeB9CE650902E4f60 same as tick/all d-08/d-24; max $0.005 Base USDC; not autopay)
+- [x] EXTERNAL_ONE_SHOT tick/symbols — d-20260928-03 (named yes; ONE card https://tick.hugen.tokyo/tick/symbols; same payee/max; not autopay)
+- [x] UNLOCK_PAY p-20260928-01 tick/latest — d-20260928-04 (one-shot; card pay:true; Buyer pays once after Governor ALLOW; NOT autopay; NOT lab_self_test; not a pay in the decision row)
+- [x] UNLOCK_PAY p-20260928-02 tick/symbols — d-20260928-05 (one-shot; card pay:true; Buyer pays once after Governor ALLOW; NOT autopay; NOT lab_self_test; not a pay in the decision row)
 
 ## running
 - Demand cadence (d-20260927-22): Demand Radar + Hermes daily chase; CoS midday+friction must fire; refresh census/_ROLLUP; no new SKU; no listing; no X
 - Densify self-canary rail CLOSED 10/10 (p-20260927-08 CLEAR). Do not cascade further cards from d-20260927-06.
 - Auto-pay standing (d-20260927-23): exact-match SKU-0 search $0.02 only. Governor may ALLOW health canaries without per-shot CoS unlock. Buyer pays once per key. Auditor CLEARs.
 - External one-shot UNLOCKED d-20260927-25: ledger/p-20260927-09-tick-all.md pay:true. Buyer pays once after Governor ALLOW. This queue does not pay.
+- Densify extras ticks UNLOCKED d-20260928-04 / d-20260928-05: ledger/p-20260928-01-tick-latest.md and ledger/p-20260928-02-tick-symbols.md pay:true. Buyer pays once each after Governor ALLOW. Max $0.005 Base USDC; payee 0x29322Ea7EcB34aA6164cb2ddeB9CE650902E4f60. NOT autopay. This queue does not pay.
 - Daily: research Poteto→Super Intel→Compound
 - Demand Radar live: cards → CoS; never pays
-- Other demand-radar paths are not standing pays (tick/latest, tick/symbols, blockrun events, nansen current-balance, x402atlas /trend). No new SKU. No listing.
+- Other demand-radar paths are not standing pays (blockrun events, nansen current-balance, x402atlas /trend). tick/latest and tick/symbols are one-shot unlocked above, not standing autopay. No new SKU. No listing.
 - Frontier trial: Projects+pstack capped per d-20260925-06
 - Frontier self-hosted worker trial HOLD d-20260928-01 until friday steal-list
-- weekly-healthcheck open: see desk/status/weekly-healthcheck-2026-09-28.md
+- weekly-healthcheck YES d-20260928-06: Frontier Friday-only steal-list; Seller weekdays 1-5; Money Maker pause Quiet opportunity `0 */2 * * *`. See desk/status/weekly-healthcheck-2026-09-28.md
 
 ## parked
 Money Maker, Agent Zero, X Growth Coach
