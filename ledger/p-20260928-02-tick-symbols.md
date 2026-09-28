@@ -2,7 +2,8 @@
 
 status: unlocked
 approval: payee-accepted d-20260925-08 (tick) + EXTERNAL_ONE_SHOT d-20260928-03 + unlock d-20260928-05
-pay: true
+pay: paid
+tx: 0x31e539d34fa51d78cb3a48de9a3345961d0f7f0b6cbfa970ef8b9a96c4a26d46
 lab_self_test: false
 standing_autopay: false
 external_one_shot: true
@@ -17,7 +18,7 @@ chain: base
 asset: USDC
 payee: 0x29322Ea7EcB34aA6164cb2ddeB9CE650902E4f60
 asset_token: 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913
-idempotency_key: p-20260928-02-tick-symbols
+idempotency_key: p-20260928-02-tick-symbols SPENT
 approval_id: d-20260928-03
 unlock_decision_id: d-20260928-05
 
