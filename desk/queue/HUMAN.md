@@ -1,9 +1,9 @@
 # HUMAN QUEUE
-updated: 2026-09-28T20:55:40+07:00
+updated: 2026-09-28T20:57:00+07:00
 hermes_last_seen: 2026-09-26T13:27:00+07:00
 
 ## must
-- [x] SKU-0 restore — CLOSED killed dead-end (human 2026-09-28 via CoS STOP): aggregator-beta / agent-search-pro repos gone; no vercel token; no further probe. (seller-desk)
+- [x] SKU-0 restore — killed d-20260928-09 (human 2026-09-28): aggregator-beta / agent-search-pro repos gone (404); cancel restore/vercel grant; drop held $0.02 health canaries. weekly-hc already cleared (YES d-20260928-06). (seller-desk)
 - [x] weekly-healthcheck: Frontier Watch — pause daily/weekend frontier-watch-daily; keep Friday-only steal-list (FLEET Fri-only; cards still 7d incl Sat/Sun). YES d-20260928-06 (named 2026-09-28T20:44+07). (eggbot 2026-09-28)
 - [x] weekly-healthcheck: Seller Desk — seller-desk-daily-health 7d→weekdays 1-5 only. YES d-20260928-06 (named 2026-09-28T20:44+07; open since 2026-09-21). (eggbot 2026-09-28)
 - [x] weekly-healthcheck: Money Maker Bot — pause/disable Quiet opportunity `0 */2 * * *` leftover (parked; AUTOMATIONS forbids 2h loop). YES d-20260928-06 (named 2026-09-28T20:44+07). (eggbot 2026-09-28)
@@ -18,7 +18,7 @@ hermes_last_seen: 2026-09-26T13:27:00+07:00
 - [x] Novel payees r-20260925-d01..d05 — ACCEPT agent-commerce-factory/lionx402/ozmium/aiagentoracle/agentmercantile d-13..17 (named yes; not pays)
 - [x] Densify pack — d-20260927-06 (named yes; research daily; hermes daily; 7d+midday cos; Demand Radar via Eggbot; daily friction; policy cuts HOLD). Self-canary rail CLOSED 10/10.
 - [x] DEMAND_CADENCE — d-20260927-22 (named yes; Demand Radar + Hermes daily chase; CoS midday+friction must fire; refresh census/_ROLLUP; no new SKU; no listing; no X; densify rail CLOSED at #10)
-- [x] ENABLE_AUTOPAY — d-20260927-23 (named yes; exact-match SKU-0 search $0.02 only, same as p-20260924-01; gate 5 clean met, now 10/10; caps apply; not novel; not listing; Governor may ALLOW without per-shot CoS unlock; Buyer once per key; Auditor CLEARs)
+- [x] ENABLE_AUTOPAY — d-20260927-23 (named yes; exact-match SKU-0 search $0.02 only, same as p-20260924-01; gate 5 clean met, now 10/10; caps apply; not novel; not listing; Governor may ALLOW without per-shot CoS unlock; Buyer once per key; Auditor CLEARs). SUSPENDED d-20260928-09: no live seller until a new SKU-0 URL is named.
 - [x] EXTERNAL_ONE_SHOT tick/all — d-20260927-24 (named yes; ONE card https://tick.hugen.tokyo/tick/all; payee 0x29322Ea7EcB34aA6164cb2ddeB9CE650902E4f60 verified vs demand-radar and d-20260925-08; max $0.005 Base USDC; not autopay)
 - [x] UNLOCK_PAY p-20260927-09 — d-20260927-25 (one-shot; card pay:true; Buyer pays once after Governor ALLOW; NOT autopay; NOT lab_self_test; not a pay in the decision row)
 - [x] EXTERNAL_ONE_SHOT tick/latest — d-20260928-02 (named yes; ONE card https://tick.hugen.tokyo/tick/latest; payee 0x29322Ea7EcB34aA6164cb2ddeB9CE650902E4f60 same as tick/all d-08/d-24; max $0.005 Base USDC; not autopay)
@@ -29,7 +29,7 @@ hermes_last_seen: 2026-09-26T13:27:00+07:00
 ## running
 - Demand cadence (d-20260927-22): Demand Radar + Hermes daily chase; CoS midday+friction must fire; refresh census/_ROLLUP; no new SKU; no listing; no X
 - Densify self-canary rail CLOSED 10/10 (p-20260927-08 CLEAR). Do not cascade further cards from d-20260927-06.
-- Auto-pay standing (d-20260927-23): exact-match SKU-0 search $0.02 only. Governor may ALLOW health canaries without per-shot CoS unlock. Buyer pays once per key. Auditor CLEARs.
+- Auto-pay standing SUSPENDED (d-20260928-09): ENABLE_AUTOPAY exact-match has no live seller until a new SKU-0 URL is named. Drop held $0.02 health canaries. Densify via external ticks + demand cadence only. This queue does not pay.
 - External one-shot UNLOCKED d-20260927-25: ledger/p-20260927-09-tick-all.md pay:true. Buyer pays once after Governor ALLOW. This queue does not pay.
 - Densify extras ticks UNLOCKED d-20260928-04 / d-20260928-05: ledger/p-20260928-01-tick-latest.md and ledger/p-20260928-02-tick-symbols.md pay:true. Buyer pays once each after Governor ALLOW. Max $0.005 Base USDC; payee 0x29322Ea7EcB34aA6164cb2ddeB9CE650902E4f60. NOT autopay. This queue does not pay.
 - Daily: research Poteto→Super Intel→Compound
