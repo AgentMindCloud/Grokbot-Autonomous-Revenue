@@ -1,8 +1,11 @@
 # HUMAN QUEUE
-updated: 2026-09-28T07:26:00+07:00
+updated: 2026-09-28T09:05:00+07:00
 hermes_last_seen: 2026-09-26T13:27:00+07:00
 
 ## must
+- [ ] weekly-healthcheck: Frontier Watch — pause daily/weekend frontier-watch-daily; keep Friday-only steal-list (FLEET Fri-only; cards still 7d incl Sat/Sun). named yes. (eggbot 2026-09-28)
+- [ ] weekly-healthcheck: Seller Desk — seller-desk-daily-health 7d→weekdays 1-5 only. named yes. (eggbot 2026-09-28; open since 2026-09-21)
+- [ ] weekly-healthcheck: Money Maker Bot — pause/disable Quiet opportunity `0 */2 * * *` leftover (parked; AUTOMATIONS forbids 2h loop). named yes or bot self-pause. (eggbot 2026-09-28)
 - [ ] Frontier self-hosted worker trial — `cursor agent worker start` / self-hosted machines (desk/cards/2026-09-28-watch.md USAGE #1). named yes required; no new bots; Buyer-only pay stays. (frontier-watch 2026-09-28)
 - [x] Paste desk/HERMES.md into Hermes and run demand radar (human: done 2026-09-26)
 - [x] Archive leftover 50-bot-system → archive/50-bot-system/ (14 files; commit 58a2067; README says do not revive)
@@ -27,7 +30,7 @@ hermes_last_seen: 2026-09-26T13:27:00+07:00
 - Demand Radar live: cards → CoS; never pays
 - Other demand-radar paths are not standing pays (tick/latest, tick/symbols, blockrun events, nansen current-balance, x402atlas /trend). No new SKU. No listing.
 - Frontier trial: Projects+pstack capped per d-20260925-06
+- weekly-healthcheck open: see desk/status/weekly-healthcheck-2026-09-28.md
 
 ## parked
 Money Maker, Agent Zero, X Growth Coach
-
