@@ -1,6 +1,6 @@
 # Standing decisions — CoS and Desk Canon read this before asking the human
 
-Updated: 2026-09-27
+Updated: 2026-09-28
 Human is only for Red items not already decided here.
 
 ## Defaults (week 1)
@@ -8,6 +8,7 @@ Human is only for Red items not already decided here.
 | Question | Answer | Until |
 |---|---|---|
 | Which Frontier steals to adopt? | **Named yes only.** Adopted 2026-09-18: sku-0 canary→fix fleet. **2026-09-25 Projects+pstack: ACCEPT trial** (d-20260925-06; supersedes HOLD d-20260925-05). Caps: steal-list #1–3 only; no new bots; Buyer-only payment stays. All other steals None. | Next Friday steal-list + explicit human yes per item |
+| Frontier self-hosted worker trial (`cursor agent worker start` / self-hosted machines)? | **HOLD until friday frontier list** (d-20260928-01 named). No trial. No new bots. Buyer-only pay stays. | Friday frontier list |
 | Lift SKU-0 public / X / directory hold? | **No.** | 10 reconciled LAB_SELF_TEST receipts + human yes |
 | Inspect-only on SKU-0? | **Cleared 2026-09-18** (Auditor: live 402 logged, $ charged = 0). Card `p-20260916-01`. | — |
 | Attach Payment MCP? | **Yes — Buyer Desk only** (d-20260918-04). Never attach to CoS, Seller, Lab, Governor, Canon, SKU-0 Fix. | Eggbot wires `buyer_payment_worker` |
