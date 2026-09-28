@@ -1,9 +1,9 @@
 # HUMAN QUEUE
-updated: 2026-09-28T22:05:00+07:00
+updated: 2026-09-28T22:06:00+07:00
 hermes_last_seen: 2026-09-26T13:27:00+07:00
 
 ## must
-- [ ] Novel payees r-20260928-d02/d05 — ACCEPT/HOLD m2msentinel (0x6d6c398390cfb88f1cd42715b84906a0bd6652aa dex/metrics $0.01) + concordancehq (0x1f5f8474fA0dc1Fde79187abd68Ef8Ea15ADAe34 tools/search $0.01 POST). named yes required; not pays. (protocol-scout daily-shallow 2026-09-28)
+- [x] Novel payees r-20260928-d02/d05 — HOLD d-20260928-10/11 (named 2026-09-28T22:06+07; not pays). m2msentinel (0x6d6c398390cfb88f1cd42715b84906a0bd6652aa dex/metrics $0.01) + concordancehq (0x1f5f8474fA0dc1Fde79187abd68Ef8Ea15ADAe34 tools/search $0.01 POST). (protocol-scout daily-shallow 2026-09-28)
 - [x] SKU-0 restore — killed d-20260928-09 (human 2026-09-28): aggregator-beta / agent-search-pro repos gone (404); cancel restore/vercel grant; drop held $0.02 health canaries. weekly-hc already cleared (YES d-20260928-06). (seller-desk)
 - [x] weekly-healthcheck: Frontier Watch — pause daily/weekend frontier-watch-daily; keep Friday-only steal-list (FLEET Fri-only; cards still 7d incl Sat/Sun). YES d-20260928-06 (named 2026-09-28T20:44+07). (eggbot 2026-09-28)
 - [x] weekly-healthcheck: Seller Desk — seller-desk-daily-health 7d→weekdays 1-5 only. YES d-20260928-06 (named 2026-09-28T20:44+07; open since 2026-09-21). (eggbot 2026-09-28)
