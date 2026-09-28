@@ -1,0 +1,163 @@
+{
+  "run": "weekly-deep-2026-09-28",
+  "ts": "2026-09-28T01:55:50Z",
+  "ts_asia_saigon": "2026-09-28T08:55:50.859829+07:00",
+  "window": {
+    "from": "2026-09-21T00:00:00+07:00",
+    "to": "2026-09-28T08:55:50.859829+07:00"
+  },
+  "release_diffs": {
+    "x402_cdp_bazaar": {
+      "material": true,
+      "summary": "@x402/core+evm+extensions 2.27.0 on 2026-09-22 (path-encoding paywall fix #3542; CAIP-2 harden #3521). x402-foundation: SVM batch-settlement #3164 merged 2026-09-25; Lightning exact #2861 2026-09-23; hedera transferExecutor #3205 2026-09-24. @coinbase/cdp-sdk 1.57.0 on 2026-09-25 (opaque enterprise sync). Bazaar total 17717 (+2529 vs weekly 15188; +261 vs daily 17456); 82 NEW urls in top-500 vs weekly."
+    },
+    "mcp_spec_registry": {
+      "material": false,
+      "summary": "No MCP specification/servers release this window (latest spec 2026-07-28; servers 2026.8.31). Spec repo commits are docs/WG charter only. registry.modelcontextprotocol.io reachable."
+    },
+    "a2a": {
+      "material": false,
+      "summary": "a2a-python v1.1.5 published 2026-09-21 (protobuf 7 + datetime/proto_utils bugfixes) \u2014 THIN for desk. A2A spec repo: partner-docs only (#2202 x402-list, #2252 MolTrust). No protocol revision."
+    },
+    "mpp": {
+      "material": false,
+      "summary": "mpp.dev/api/services still 142 services; zero NEW vs 2026-09-21 weekly (parallel/openai/anthropic/exa/tavily present)."
+    },
+    "erc_8004": {
+      "material": false,
+      "summary": "eip-8004 remains Draft on eips.ethereum.org; zero ethereum/EIPs commits to eip-8004.md this window."
+    },
+    "trm_chainalysis_visa_artemis": {
+      "material": false,
+      "summary": "No new primary TRM/Chainalysis/Visa-Artemis paper inside 2026-09-21..28. Prior TRM x402 attribution coverage dated ~2026-09-15 already filed in weekly-2026-09-21."
+    }
+  },
+  "rankings": {
+    "formula": "Priority=100*(E*C)/(S*I*R); Month-1 E=0.7*learning+0.3*revenue",
+    "candidates_considered": [
+      "mpp parallel/openai/anthropic/exa",
+      "sku0 self (rail CLOSED 10/10 + ENABLE_AUTOPAY \u2014 not re-proposed)",
+      "approved LIVE: anchor-x402, nansen ohlcv, blockrun keyset, oblique pulse, x402atlas websearch, ozmium",
+      "deferred novel: exa.ai direct, x402tap, quartermaster, crypto.apitoll.cloud (distinct payTo)"
+    ],
+    "canaries": [
+      {
+        "slot": "lab-1-mpp-search",
+        "target": "mpp:parallel",
+        "protocol": "mpp",
+        "endpoint": "https://mpp.dev (service id=parallel)",
+        "note": "Directory-listed MPP search (parallel). Fallback exa/tavily/brave still listed (mpp n=142 unchanged). Known rail; not novel.",
+        "assumptions": {
+          "learning": 0.9,
+          "revenue": 0.2,
+          "E": 0.69,
+          "C": 0.85,
+          "S": 0.3,
+          "I": 0.2,
+          "R": 0.25
+        },
+        "Priority": 3910.0,
+        "novel_counterparty": false,
+        "human_approval_needed": false,
+        "max_spend_usdc": null
+      },
+      {
+        "slot": "lab-2-anchor-price",
+        "target": "x402:anchor-price-token",
+        "protocol": "x402",
+        "endpoint": "https://api.anchor-x402.com/v1/price/token",
+        "note": "Accepted payee d-20260925-02. Live 402 Base USDC $0.001 (amount=1000) payTo 0x127462e296fAc1A7F5cF33bA57bB2f0FFf5cD0B6. Cheap structured price canary \u2264$0.25.",
+        "assumptions": {
+          "learning": 0.75,
+          "revenue": 0.2,
+          "E": 0.585,
+          "C": 0.9,
+          "S": 0.15,
+          "I": 0.25,
+          "R": 0.35
+        },
+        "Priority": 4011.4,
+        "novel_counterparty": false,
+        "human_approval_needed": false,
+        "max_spend_usdc": 0.001,
+        "live_402": {
+          "network": "eip155:8453",
+          "amount_raw": "1000",
+          "usdc": 0.001,
+          "payTo": "0x127462e296fAc1A7F5cF33bA57bB2f0FFf5cD0B6"
+        }
+      },
+      {
+        "slot": "lab-3-nansen-ohlcv",
+        "target": "x402:nansen-token-ohlcv",
+        "protocol": "x402",
+        "endpoint": "https://api.nansen.ai/api/v1/tgm/token-ohlcv",
+        "note": "Accepted payee d-20260924-08. Live 402 Base USDC $0.01 (amount=10000) payTo 0x93053f1e7A5eFEDa532Fe69CbbE43cBEc3A0F13f. Structured OHLCV learning for Lab; not standing autopay.",
+        "assumptions": {
+          "learning": 0.9,
+          "revenue": 0.25,
+          "E": 0.705,
+          "C": 0.85,
+          "S": 0.25,
+          "I": 0.3,
+          "R": 0.35
+        },
+        "Priority": 2282.9,
+        "novel_counterparty": false,
+        "human_approval_needed": false,
+        "max_spend_usdc": 0.01,
+        "live_402": {
+          "network": "eip155:8453",
+          "amount_raw": "10000",
+          "usdc": 0.01,
+          "payTo": "0x93053f1e7A5eFEDa532Fe69CbbE43cBEc3A0F13f"
+        }
+      }
+    ],
+    "deferred": {
+      "slot": "lab-alt-blockrun-keyset",
+      "target": "x402:blockrun-polymarket-keyset",
+      "endpoint": "https://blockrun.ai/api/v1/pm/polymarket/markets/keyset",
+      "note": "Accepted d-20260925-03; live $0.0085; deferred to keep \u22643 canaries (prefer mpp+anchor+nansen diversify).",
+      "Priority": 2205.5,
+      "novel_counterparty": false
+    }
+  },
+  "research_cards": [
+    {
+      "id": "r-20260928-01",
+      "status": "spec",
+      "endpoint": "https://www.npmjs.com/package/@x402/core/v/2.27.0"
+    },
+    {
+      "id": "r-20260928-02",
+      "status": "spec",
+      "endpoint": "https://github.com/x402-foundation/x402/pull/3164"
+    },
+    {
+      "id": "r-20260928-03",
+      "status": "spec",
+      "endpoint": "https://github.com/x402-foundation/x402/pull/2861"
+    },
+    {
+      "id": "r-20260928-04",
+      "status": "live",
+      "endpoint": "https://mpp.dev/api/services"
+    },
+    {
+      "id": "r-20260928-05",
+      "status": "live",
+      "endpoint": "https://api.anchor-x402.com/v1/price/token"
+    },
+    {
+      "id": "r-20260928-06",
+      "status": "live",
+      "endpoint": "https://api.nansen.ai/api/v1/tgm/token-ohlcv"
+    }
+  ],
+  "material": true,
+  "material_reason": "x402 2.27.0 paywall/CAIP harden + SVM batch-settlement + Lightning/Hedera exact specs; bazaar +2529; 3 approved canaries; MCP/A2A/MPP/EIP-8004/TRM quiet or THIN",
+  "market_cos_line": "Protocol Scout weekly-deep 2026-09-28: MATERIAL \u2014 x402 2.27.0 + SVM batch-settlement + Lightning/Hedera specs; bazaar 17717 (+2529 wk); 6 cards r-20260928-01..06; canaries mpp:parallel / anchor $0.001 / nansen ohlcv $0.01 (none novel).",
+  "human_must_lines_added": [],
+  "hard_rules": "no buy; no payment-worker; no implement; no policy.yaml edit; no post/list"
+}
