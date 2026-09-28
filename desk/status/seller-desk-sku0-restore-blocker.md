@@ -1,15 +1,14 @@
-# Seller Desk — SKU-0 restore BLOCKED
+# Seller Desk — SKU-0 restore WAITING (vercel grant)
 
-- date: 2026-09-28 20:49 Asia/Ho_Chi_Minh
-- from: Market CoS GO on desk/cards/2026-09-28-sku0-fix-fail.md
-- goal: restore sample 200 + paid route live_402 (never pay, never list)
-- repro confirmed (box only): GET /health 200 mock=false v0.2.0; POST /api/search 500; MCP tools/call web_search_sample 500; GET /api/sample 500
-- blocker: no source repo visible to Seller Desk
-  - AgentMindCloud/agent-search-pro → 404
-  - AgentMindCloud/aggregator-beta → 404
-  - CloudAgent repositories search aggregat|agent-search|sku → 0
-  - no vercel CLI / VERCEL_* on Seller Desk box
-  - historical cloud agent PR pointed at AgentMindCloud/agent-search-pro/pull/1 but repo not readable now
-- not used: user KitchenPC (local tools Never; wrong surface anyway)
-- need (one of): github URL for live aggregator-beta source with write+deploy, OR vercel project access + search-provider env fix
-- no price/payee/list/X change attempted
+- date: 2026-09-28 20:52 Asia/Ho_Chi_Minh
+- cos: NAMED YES 2026-09-28 — human grants Seller Desk Vercel project access for aggregator-beta.vercel.app
+- prior: HOLD (skipped grant) superseded by named yes above
+- goal: sample→200 + paid→402; never pay; never list
+- last repro (pre-grant): /health 200 mock=false v0.2.0; /api/search + web_search_sample + /api/sample → 500
+- box: no VERCEL_* env; no vercel CLI; AgentMindCloud/agent-search-pro still 404
+- state: WAITING — no further probe until Vercel token/invite lands
+- access needed (exact):
+  1. Vercel token with Project access to the deployment behind https://aggregator-beta.vercel.app → save as box secret `VERCEL_TOKEN` (Seller Desk only)
+  2. Project id/name (or confirm team slug) so `vercel link` / API can target the right project
+  3. Prefer also: GitHub (or other) source URL linked to that Vercel project for code patch; if env-only, Deployment → Environment Variables for the search provider key(s)
+- clear HUMAN must only after restored + Lab CLEAR
