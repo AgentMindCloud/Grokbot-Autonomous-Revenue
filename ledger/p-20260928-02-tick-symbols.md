@@ -37,7 +37,7 @@ unlock_decision_id: d-20260928-05
 
 ## rules
 - UNLOCK_PAY d-20260928-05. Buyer pays once after Governor ALLOW. This file is not a payment.
-- Supersedes the locked pay:false draft that awaited this unlock.
+- Supersedes the locked draft that awaited this unlock.
 - Verify payTo on fresh live 402 vs 0x29322Ea7EcB34aA6164cb2ddeB9CE650902E4f60 before any pay.
 - Stop on mismatch (amount/asset/chain/payee).
 - Not novel payee (accepted d-20260925-08). Not listing. Not X. Not SKU-0 densify pack. NOT autopay. NOT lab_self_test.
