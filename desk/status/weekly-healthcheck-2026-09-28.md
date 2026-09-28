@@ -42,3 +42,13 @@ weekly-healthcheck: 3 waste flags — Frontier still daily/weekend (narrow Fri),
 - appended CoS note to desk/census/_INBOX.md
 - appended HUMAN must-lines for the three fixes
 - did **not** edit other bots’ routines (cannot from eggbot); did **not** disable weekly-healthcheck
+
+## human YES (d-20260928-06)
+
+Human named yes 2026-09-28T20:44:00+07:00 Asia/Ho_Chi_Minh, filed `d-20260928-06` (bot cos, human true):
+
+- Frontier Watch: pause daily/weekend frontier-watch-daily; keep Friday-only steal-list
+- Seller Desk: seller-desk-daily-health 7d → weekdays 1-5 only
+- Money Maker Bot: pause/disable Quiet opportunity `0 */2 * * *`
+
+Not a pay. No new bots. policy.yaml unchanged.
