@@ -1,8 +1,9 @@
 # HUMAN QUEUE
-updated: 2026-09-28T20:44:00+07:00
+updated: 2026-09-28T20:49:22+07:00
 hermes_last_seen: 2026-09-26T13:27:00+07:00
 
 ## must
+- [ ] SKU-0 restore: grant Seller Desk the live aggregator-beta source (AgentMindCloud/agent-search-pro or current URL) + deploy/env access so sample→200 and paid→402 can be patched. Repo currently 404 to Seller. (seller-desk 2026-09-28; CoS GO on 2026-09-28-sku0-fix-fail)
 - [x] weekly-healthcheck: Frontier Watch — pause daily/weekend frontier-watch-daily; keep Friday-only steal-list (FLEET Fri-only; cards still 7d incl Sat/Sun). YES d-20260928-06 (named 2026-09-28T20:44+07). (eggbot 2026-09-28)
 - [x] weekly-healthcheck: Seller Desk — seller-desk-daily-health 7d→weekdays 1-5 only. YES d-20260928-06 (named 2026-09-28T20:44+07; open since 2026-09-21). (eggbot 2026-09-28)
 - [x] weekly-healthcheck: Money Maker Bot — pause/disable Quiet opportunity `0 */2 * * *` leftover (parked; AUTOMATIONS forbids 2h loop). YES d-20260928-06 (named 2026-09-28T20:44+07). (eggbot 2026-09-28)
