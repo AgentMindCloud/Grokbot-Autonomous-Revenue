@@ -21,11 +21,12 @@ role: OTHER (external @poteto method scout; not a Market Desk seat)
 
 ## Latest
 
-- status: **NEW** (FLEET | USAGE)
-- ts: 2026-09-25T09:36+07
-- card: `desk/cards/2026-09-25-poteto-scout.md`
-- signal: @poteto `2103252563999232092` — Cursor Projects + pstack, routinely ≥10 parallel Projects (perf / tech debt / Bend2+rust / feedback / dashboards / games). Not ESCALATE (no new skill/Dune/merge-policy/Galaxy/guide).
-- skipped: “rewrite it in bend”; prior Galaxy+Rank’em+pstack 0.15.5 baseline.
-- human: Frontier Friday steal already ACCEPT `d-20260925-06` on HUMAN.md — no new must-line.
-- outs: Super Intel + Compound (file only); densify 2026-09-27 unmute daily SI.
+- status: **ESCALATE** (GUIDE | FLEET | USAGE | GUARDRAIL)
+- ts: 2026-09-28T09:36+07
+- card: `desk/cards/2026-09-28-poteto-scout.md`
+- signal: @poteto cosigned Peter Yang Behind the Craft “14 bots” episode (`2104260894004039831` quoting `2104213287353356531`, 2026-09-27 UTC) — Matcha non-exec eng-lead; skill→routine trust ladder; land-before-read autonomy; Dr. Eggbot; design-bot first-5% + Figma MCP. YouTube youtu.be/xZ5TEaleUdg + creatoreconomy.so writeup.
+- skipped: poteto-meme; opus-typo joke; Starship contest; Michelin restatement; pstack still 0.15.5 (no new commits since 2026-09-25).
+- human: no must-line (playbook filing only; densify says do not create bots / do not adopt).
+- outs: desk artifacts only this pass (MUTE — parent may forward card to Super Intel + Compound). Market CoS one-line steal pointer warranted.
+- prior: 2026-09-25 NEW FLEET|USAGE Projects+pstack ≥10 (`desk/cards/2026-09-25-poteto-scout.md`)
 - densify_ack: d-20260927-06 applied 2026-09-27T09:43+07
