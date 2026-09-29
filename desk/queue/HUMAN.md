@@ -1,8 +1,9 @@
 # HUMAN QUEUE
-updated: 2026-09-28T22:06:00+07:00
+updated: 2026-09-29T22:05:00+07:00
 hermes_last_seen: 2026-09-26T13:27:00+07:00
 
 ## must
+- [ ] Novel payees r-20260929-d01..d04 — NEED ACCEPT/HOLD: 402signal (0xa2604ae688228af8349363770351bfcec66d4fa0 /route $0.003) + whaletape (0x25a8b697Da5c0bAF698Fd6BD9701B5e825214145 /coverage $0.001) + straits.live (0x1B24dEAc0951EFCD6923f684b574Fe9a4202Cf1f premium/vessels $0.02) + token-risk (0x332DbF15a8Bcca8eEB4390b380202360F4f45401 /v1/scan $0.01). (protocol-scout daily-shallow 2026-09-29)
 - [x] Novel payees r-20260928-d02/d05 — HOLD d-20260928-10/11 (named 2026-09-28T22:06+07; not pays). m2msentinel (0x6d6c398390cfb88f1cd42715b84906a0bd6652aa dex/metrics $0.01) + concordancehq (0x1f5f8474fA0dc1Fde79187abd68Ef8Ea15ADAe34 tools/search $0.01 POST). (protocol-scout daily-shallow 2026-09-28)
 - [x] SKU-0 restore — killed d-20260928-09 (human 2026-09-28): aggregator-beta / agent-search-pro repos gone (404); cancel restore/vercel grant; drop held $0.02 health canaries. weekly-hc already cleared (YES d-20260928-06). (seller-desk)
 - [x] weekly-healthcheck: Frontier Watch — pause daily/weekend frontier-watch-daily; keep Friday-only steal-list (FLEET Fri-only; cards still 7d incl Sat/Sun). YES d-20260928-06 (named 2026-09-28T20:44+07). (eggbot 2026-09-28)

@@ -1,0 +1,22 @@
+Protocol Scout daily-shallow 2026-09-29 (Asia/Saigon 2026-09-29T22:05:00+07:00)
+health: SKU-0 HTTP 200 mock=false v0.2.0 service=agent-search-pro facilitator=xpay
+bazaar_total: 19102 (delta -52 vs daily 2026-09-28 19154)
+NEW in top-500: 20
+mpp_n: 142 (delta 0 vs daily 142); NEW mpp: 0
+research_cards: r-20260929-d01..d05 (5 LIVE)
+  d01 402signal /route LIVE $0.003 (NOVEL)
+  d02 whaletape /coverage LIVE $0.001 (NOVEL)
+  d03 straits.live premium/vessels LIVE $0.02 (NOVEL)
+  d04 token-risk /v1/scan LIVE $0.01 (NOVEL)
+  d05 nansen prediction-market/market-screener LIVE $0.01 (known)
+novel payees: 402signal, whaletape, straits.live, token-risk
+HUMAN.md must-lines needed: YES (4 novel-accept)
+material: YES
+market_cos_line: protocol scout daily-shallow 2026-09-29: material — bazaar 19102 (-52 vs 2026-09-28 19154) 20 new top-500; mpp 142 unchanged; 5 live cards r-20260929-d01..d05 (402signal route, whaletape coverage, straits vessels, token-risk scan, nansen pm-screener); novel payees 402signal+whaletape+straits+token-risk.
+wake_market_cos: YES
+no buy / no payment-worker / no implement
+artifacts:
+  /workspace/scout-daily-2026-09-29/scout-state/snapshot-2026-09-29-daily.json
+  /workspace/scout-daily-2026-09-29/scout-state/research-proposed-2026-09-29-daily.jsonl
+  /workspace/scout-daily-2026-09-29/SUMMARY.txt
+  /workspace/scout-daily-2026-09-29/raw/ (bazaar-offset-*.json, mpp-services.json, probes/)
