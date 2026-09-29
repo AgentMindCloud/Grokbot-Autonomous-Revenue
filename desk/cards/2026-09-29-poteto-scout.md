@@ -1,7 +1,7 @@
 # Poteto Scout — 2026-09-29
 
 **Status:** ESCALATE  
-**Lead:** FLEET | USAGE | INNOVATION (ESCALATE — new Grok Bot Team Bots / multiplayer fleet primitive Lauren cosigned + ships from)
+**Lead:** FLEET | USAGE | INNOVATION | GUARDRAIL (ESCALATE — new Grok Bot Team Bots / multiplayer fleet primitive Lauren cosigned + ships from)
 
 ## FLEET
 - **source:** @poteto quote of @bot Team Bots launch  
@@ -9,7 +9,7 @@
   - @bot: https://x.com/bot/status/2104661562715967548 (2026-09-28 19:56 UTC) — “Introducing Team Bots, shared AI teammates that learn as your team works with them. Give your Team Bot the skills, plugins, and credentials it needs for its role, then work with it in Slack or Grok Bot.” (+ 26s demo video)
 - **method:** Personal bots → **shared Team Bot** owned for a role; team members work with the same bot in Slack or Grok Bot; bot carries plugins/skills/credentials; Lauren pattern = chat + spawn cloud agents from the Team Bot.
 - **vs baseline:** Extends Matcha orchestration-only / Grok Bots-as-coordinators / Projects≥10 with a **first-party multiplayer / shared-bot primitive** (org-shareable teammate, not just personal fleet).
-- **docs echo:** cursor.com/docs/grok-bot notes Team Bot handoffs (“When you chat with a teammate's Team Bot, it usually works on your computer too”).
+- **docs echo (cursor.com/docs/grok-bot + /teams):** Member publishes a cloud-hosted Bot to the team; every member can chat with it. In a member’s own chat the Bot usually works on **that member’s computer** and uses that member’s accounts/usage after asking. In Slack channels/threads/group chats, a Team Bot uses **one computer of its own**. Secrets/plugins/files the owner adds are available in every teammate’s chat. Admin “Manage Team Bots” can push published Team Bots into members’ sidebars.
 - **steal (file only; do not adopt / do not create bots):** Shared role-bot + Slack surface + cloud-agent spawn is the org fleet unit; keep credentials/skills scoped to role.
 - **confidence:** high (Lauren + @bot primary; docs corroboration)
 
@@ -24,8 +24,11 @@
 - Lauren explicitly ties Team Bot usage to **firing off cloud agents** — coordinator pattern now has a first-party shared surface.
 
 ## GUARDRAIL
-- No new merge/autonomy policy in today’s posts (land-before-read remains 2026-09-28 baseline).
-- Credentials on a Team Bot raise shared-secret blast radius — densify: do not adopt / do not create bots; file only.
+- No new merge/autonomy policy in today’s Lauren posts (land-before-read remains 2026-09-28 baseline).
+- **Team Bot credential blast radius (docs):** owner-added secrets/plugins/files are available in every teammate’s chat with that Team Bot.
+- **Computer split (docs):** 1:1 chat → usually the chatting member’s computer; Slack/group → Team Bot’s own shared computer.
+- **Auto-review gap (docs):** Team Bots in chats where nobody can answer an approval (teammates’ chats and Slack) otherwise run **without Auto-review** unless Enterprise “Enforce Auto-review” is on.
+- densify: do not adopt / do not create bots; file only.
 
 ## LIVE-DEMO
 - @bot 26s Team Bots intro video on `2104661562715967548`.
@@ -41,5 +44,5 @@
 - pstack still **0.15.5** (`pstack/.cursor-plugin/plugin.json`); no pstack commits since 2026-09-27T00:00Z.
 
 ## Sources / limits
-- user-X MCP: `client-not-enrolled` / Client Forbidden — timeline via Playwright + api.fxtwitter.com status fetches; docs via WebFetch.
+- user-X MCP: `client-not-enrolled` / Client Forbidden — timeline via Playwright + api.fxtwitter.com status fetches; docs via WebFetch (cursor.com/docs/grok-bot, /teams).
 - Do not reply/post/impersonate @poteto. Do not pay. Do not adopt methods or create bots.

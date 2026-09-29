@@ -21,10 +21,10 @@ role: OTHER (external @poteto method scout; not a Market Desk seat)
 
 ## Latest
 
-- status: **ESCALATE** (FLEET | USAGE | INNOVATION)
-- ts: 2026-09-29T09:37+07
+- status: **ESCALATE** (FLEET | USAGE | INNOVATION | GUARDRAIL)
+- ts: 2026-09-29T09:40+07
 - card: `desk/cards/2026-09-29-poteto-scout.md`
-- signal: @poteto cosigned Grok Bot **Team Bots** multiplayer (`2104664283808428165` quoting `@bot` `2104661562715967548`, 2026-09-28 ~20:07Z) — shared team bot with plugins/skills/credentials + one-click Slack; she fires cloud agents from it. Plus USAGE: goal/problem restatement prompt (`2104744961904394699`, 2026-09-29 ~01:28Z).
+- signal: @poteto cosigned Grok Bot **Team Bots** multiplayer (`2104664283808428165` quoting `@bot` `2104661562715967548`, 2026-09-28 ~20:07Z) — shared team bot with plugins/skills/credentials + one-click Slack; she fires cloud agents from it. Plus USAGE: goal/problem restatement prompt (`2104744961904394699`, 2026-09-29 ~01:28Z). Docs GUARDRAIL: shared secrets blast radius; Slack Team Bot has own computer; Auto-review off in Slack unless Enforce.
 - skipped: four-comma / 1.3T tokens vanity (`2104714676978479423`); Finance connector promo (`2104646114427457941`); Peter Yang 14-bots already filed 2026-09-28; Compile pin baseline; pstack still 0.15.5 (no commits since 2026-09-27).
 - human: no must-line (playbook filing only; densify says do not create bots / do not adopt).
 - outs: desk artifacts only this pass (MUTE — parent may forward card to Super Intel + Compound). Market CoS one-line steal pointer warranted.
