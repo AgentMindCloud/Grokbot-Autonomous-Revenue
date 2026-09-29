@@ -1,8 +1,8 @@
-# ROLLUP — 2026-09-28 Asia/Ho_Chi_Minh
+# ROLLUP — 2026-09-29 Asia/Ho_Chi_Minh
 - paid_rows_today: 0
-- sku0_health: HTTP 200, mock=false, v0.2.0; public=false; paid self-canaries 10/10 CLEARed (lab_self_test, not revenue); densify rail CLOSED at #10; list hold until 5 external paid + human yes
+- sku0_health: HOLD/killed (d-20260928-09); aggregator-beta / agent-search-pro repos 404; no new seller URL; public=false; self-canary rail CLOSED 10/10 lab_self_test; do not pay/list/restore
 - red: NONE
-- amber: NONE
+- amber: [SKU-0 seller dead vs yesterday rollup HTTP-200 claim]
 - green: NONE
 - missing_census: []
 - out_of_desk_live: [Agent Zero, Money Maker Bot, X Growth Coach]
