@@ -21,12 +21,12 @@ role: OTHER (external @poteto method scout; not a Market Desk seat)
 
 ## Latest
 
-- status: **ESCALATE** (GUIDE | FLEET | USAGE | GUARDRAIL)
-- ts: 2026-09-28T09:36+07
-- card: `desk/cards/2026-09-28-poteto-scout.md`
-- signal: @poteto cosigned Peter Yang Behind the Craft “14 bots” episode (`2104260894004039831` quoting `2104213287353356531`, 2026-09-27 UTC) — Matcha non-exec eng-lead; skill→routine trust ladder; land-before-read autonomy; Dr. Eggbot; design-bot first-5% + Figma MCP. YouTube youtu.be/xZ5TEaleUdg + creatoreconomy.so writeup.
-- skipped: poteto-meme; opus-typo joke; Starship contest; Michelin restatement; pstack still 0.15.5 (no new commits since 2026-09-25).
+- status: **ESCALATE** (FLEET | USAGE | INNOVATION)
+- ts: 2026-09-29T09:37+07
+- card: `desk/cards/2026-09-29-poteto-scout.md`
+- signal: @poteto cosigned Grok Bot **Team Bots** multiplayer (`2104664283808428165` quoting `@bot` `2104661562715967548`, 2026-09-28 ~20:07Z) — shared team bot with plugins/skills/credentials + one-click Slack; she fires cloud agents from it. Plus USAGE: goal/problem restatement prompt (`2104744961904394699`, 2026-09-29 ~01:28Z).
+- skipped: four-comma / 1.3T tokens vanity (`2104714676978479423`); Finance connector promo (`2104646114427457941`); Peter Yang 14-bots already filed 2026-09-28; Compile pin baseline; pstack still 0.15.5 (no commits since 2026-09-27).
 - human: no must-line (playbook filing only; densify says do not create bots / do not adopt).
 - outs: desk artifacts only this pass (MUTE — parent may forward card to Super Intel + Compound). Market CoS one-line steal pointer warranted.
-- prior: 2026-09-25 NEW FLEET|USAGE Projects+pstack ≥10 (`desk/cards/2026-09-25-poteto-scout.md`)
+- prior: 2026-09-28 ESCALATE GUIDE|FLEET|USAGE|GUARDRAIL Behind the Craft 14-bots (`desk/cards/2026-09-28-poteto-scout.md`)
 - densify_ack: d-20260927-06 applied 2026-09-27T09:43+07
