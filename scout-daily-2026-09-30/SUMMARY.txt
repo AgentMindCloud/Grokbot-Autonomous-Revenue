@@ -1,0 +1,22 @@
+Protocol Scout daily-shallow 2026-09-30 (Asia/Saigon 2026-09-30T21:55:00+07:00)
+health: SKU-0 HTTP 200 mock=false v0.2.0 service=agent-search-pro facilitator=xpay
+bazaar_total: 19197 (delta +95 vs daily 2026-09-29 19102)
+NEW in top-500: 33
+mpp_n: 142 (delta 0 vs daily 142); NEW mpp: 0
+research_cards: r-20260930-d01..d05 (5 LIVE)
+  d01 agent.massive.com /v2/reference/news LIVE $0.01 (NOVEL)
+  d02 brazilayer /v1/mercado/cambio LIVE $0.002 (NOVEL)
+  d03 rubric-protocol hedera-facts/latest-tx LIVE $0.001 (NOVEL)
+  d04 vedetta.dethboy.com /v1/track-record LIVE $0.01 (NOVEL)
+  d05 vapex402 /data/chain_overview LIVE $0.01 (NOVEL)
+novel payees: agent.massive.com, brazilayer, rubric-protocol, vedetta.dethboy.com, vapex402
+HUMAN.md must-lines needed: YES (5 novel-accept)
+material: YES
+market_cos_line: protocol scout daily-shallow 2026-09-30: material — bazaar 19197 (+95 vs 2026-09-29 19102) 33 new top-500; mpp 142 unchanged; 5 live cards r-20260930-d01..d05 (massive news, brazilayer cambio, rubric hedera-facts, vedetta track-record, vapex chain_overview); novel payees massive+brazilayer+rubric+vedetta+vapex.
+wake_market_cos: YES
+no buy / no payment-worker / no implement
+artifacts:
+  /workspace/scout-daily-2026-09-30/scout-state/snapshot-2026-09-30-daily.json
+  /workspace/scout-daily-2026-09-30/scout-state/research-proposed-2026-09-30-daily.jsonl
+  /workspace/scout-daily-2026-09-30/SUMMARY.txt
+  /workspace/scout-daily-2026-09-30/raw/ (bazaar-offset-*.json, mpp-services.json, probes/)
