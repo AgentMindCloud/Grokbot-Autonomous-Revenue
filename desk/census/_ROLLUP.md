@@ -1,4 +1,4 @@
-# ROLLUP — 2026-09-30 Asia/Ho_Chi_Minh
+# ROLLUP — 2026-10-01 Asia/Ho_Chi_Minh
 - paid_rows_today: 0
 - sku0_health: HOLD/killed (d-20260928-09); aggregator-beta / agent-search-pro repos 404; no new seller URL; public=false; self-canary rail CLOSED 10/10 lab_self_test; do not pay/list/restore
 - red: NONE
