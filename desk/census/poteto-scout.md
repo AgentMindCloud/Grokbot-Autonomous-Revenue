@@ -21,13 +21,13 @@ role: OTHER (external @poteto method scout; not a Market Desk seat)
 
 ## Latest
 
-- status: **NONE**
-- ts: 2026-09-30T09:33+07
-- window: scanned @poteto posts since ~2026-09-28T00:00Z through 2026-09-30 ~09:33 ICT (Playwright profile + api.fxtwitter status fetches; user-X MCP client-not-enrolled)
-- card: none (idle) — prior ESCALATE remains `desk/cards/2026-09-29-poteto-scout.md`
-- signal: no new operating-pattern deltas vs baseline. New posts after restatement (`2104744961904394699`) are aphorism / joke / celebration only.
-- skipped: `2105051957258055938` “build trebuchets while others build moats” (aphorism); `2104984182950891698` + self-reply `2104984736116719952` ChatGPT/Grok Bot joke (“im joking, congrats openai”); `2104972739253874836` “happy grok @bot day” (celebration); Team Bots / restatement / four-comma / Finance / Peter Yang / Compile already baseline; pstack still **0.15.5** on `cursor/plugins` (no pstack path commits since 2026-09-27).
+- status: **ESCALATE**
+- ts: 2026-10-01T09:37+07
+- window: scanned @poteto posts since ~2026-09-30T02:33Z through 2026-10-01 ~09:37 ICT (Playwright profile + api.fxtwitter status fetches; user-X MCP client-not-enrolled)
+- card: `desk/cards/2026-10-01-poteto-scout.md`
+- signal: Team engineer bot as manager + Slack @ + create Projects / cloud-agent workers (2105377066942349794 quoting @bot 2105373767568621895); Matt Pocock Fri 9AM PT talk cosign (2105324768186777634 → youtube.com/live/MN9dGgmLyso). Categories FLEET|USAGE|INNOVATION|GUIDE.
+- skipped: `2105336247548006760` burnout/fun personal; prior trebuchets/jokes/Team Bots/restatement/Compile baseline; pstack still **0.15.5**.
 - human: no must-line
-- outs: none (NONE — no Super Intel / Compound / Market CoS steal pointer this pass)
-- prior: 2026-09-29 ESCALATE FLEET|USAGE|INNOVATION|GUARDRAIL Team Bots + restatement (`desk/cards/2026-09-29-poteto-scout.md`)
+- outs: Super Intel + Compound file-only; Market CoS one-line steal pointer (manager Team Bot → Projects/cloud agents; watch Matt Pocock Fri)
+- prior: 2026-09-30 NONE; 2026-09-29 ESCALATE Team Bots + restatement
 - densify_ack: d-20260927-06 applied 2026-09-27T09:43+07
