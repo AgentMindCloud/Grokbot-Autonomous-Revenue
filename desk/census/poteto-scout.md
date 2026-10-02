@@ -22,12 +22,12 @@ role: OTHER (external @poteto method scout; not a Market Desk seat)
 ## Latest
 
 - status: **ESCALATE**
-- ts: 2026-10-01T09:37+07
-- window: scanned @poteto posts since ~2026-09-30T02:33Z through 2026-10-01 ~09:37 ICT (Playwright profile + api.fxtwitter status fetches; user-X MCP client-not-enrolled)
-- card: `desk/cards/2026-10-01-poteto-scout.md`
-- signal: Team engineer bot as manager + Slack @ + create Projects / cloud-agent workers (2105377066942349794 quoting @bot 2105373767568621895); Matt Pocock Fri 9AM PT talk cosign (2105324768186777634 → youtube.com/live/MN9dGgmLyso). Categories FLEET|USAGE|INNOVATION|GUIDE.
-- skipped: `2105336247548006760` burnout/fun personal; prior trebuchets/jokes/Team Bots/restatement/Compile baseline; pstack still **0.15.5**.
+- ts: 2026-10-02T09:37+07
+- window: scanned @poteto posts since ~2026-10-01T02:37Z through 2026-10-02 ~09:37 ICT (twiiit/shitter RSS + api.fxtwitter status + screenshot OCR; user-X MCP client-not-enrolled)
+- card: `desk/cards/2026-10-02-poteto-scout.md`
+- signal: Slack `@poteto repro and fix full autopilot` → cloud agent repro-first then fix/test/PR/screenshots (2105576730413134291 + thread). Categories USAGE|LIVE-DEMO|GUARDRAIL|FLEET.
+- skipped: proactive-suggestions cheer `2105718847181656361`; 3x-faster / X-Chat RTs; pepsi joke; Matt restatement echo; billion-dollar joke; prior Team-engineer + Matt-Pocock-cosign baseline; Matt live not yet aired (~23:00 ICT); pstack still **0.15.5**.
 - human: no must-line
-- outs: Super Intel + Compound file-only; Market CoS one-line steal pointer (manager Team Bot → Projects/cloud agents; watch Matt Pocock Fri)
-- prior: 2026-09-30 NONE; 2026-09-29 ESCALATE Team Bots + restatement
+- outs: Super Intel + Compound file-only; Market CoS one-line steal pointer (Slack autopilot bug-fix spell; watch Matt Pocock tonight)
+- prior: 2026-10-01 ESCALATE Team engineer manager + Matt Pocock cosign; 2026-09-30 NONE
 - densify_ack: d-20260927-06 applied 2026-09-27T09:43+07
