@@ -1,8 +1,9 @@
 # HUMAN QUEUE
-updated: 2026-10-01T22:00:00+07:00
+updated: 2026-10-02T07:35:00+07:00
 hermes_last_seen: 2026-09-26T13:27:00+07:00
 
 ## must
+- [ ] Frontier Friday steal-list 2026-10-02 — NEED ACCEPT/HOLD/KILL (desk/cards/2026-10-02-watch.md). (1) self-hosted `cursor agent worker start` trial was HOLD d-20260928-01 until friday — ACCEPT sticky-machine trial OR kill; no new bots; Buyer-only pay. (2) Team Bots shared role bots (skills/plugins/creds/memories; https://x.ai/news/team-bots) — trial or hold; no specialist roster growth. (3) Grok Bot→Cursor handoff + GitHub/Origin PR plugins + eng marketplace templates — trial or hold. Do not auto-adopt. (frontier-watch 2026-10-02)
 - [ ] Novel payees r-20261001-d01..d05 — NEED ACCEPT/HOLD (scout daily-shallow 2026-10-01; not pays). acoda.xyz (0x3DCeFd14f76fD76D36bEc7C271Ff28d1bDb9989D /v1/market-state $0.01) + api.vaults.fyi (0x108BCd8a07C3fdfca3Aa500784A8573123a1029F /v2/vaults $0.002) + api.robinx.io (0xA13d363AeCCCF878Ec64f6eB687Eb4A771FB0599 /social/momentum $0.02) + api.nativebtc.org (0x0300E73759B357ceeE5A248d1801eCb8abf7A1d4 /v1/mempool/stream-ticket $0.005) + gate402.app (0x8E57BFDE053dBb6862991759c19affC5F383d5D0 /v1/proxy $0.002). (protocol-scout daily-shallow 2026-10-01)
 - [x] Novel payees r-20260930-d01..d05 — HOLD d-20261001-16..20 (silent 24h 2026-10-01T22:00+07; not pays). agent.massive.com (0x525f6dDcE9aF7a7179D7696aaBfCd5FCd15a21e6 /v2/reference/news $0.01) + brazilayer (0x3Cc1D8ee1dfdFd326c19B0884B8dF4b24B623f0c /v1/mercado/cambio $0.002) + rubric-protocol (0xaB6731A0BcDf511c2842C768a03448075aB654ca hedera-facts/latest-tx $0.001) + vedetta.dethboy.com (0x21E16F1bc3aA847236354C8193D0cB21cF412eFA /v1/track-record $0.01) + vapex402 (0x8aAB9a6d28e9AbA2a15a613C90F24f352f0Cce15 /data/chain_overview $0.01). (protocol-scout daily-shallow 2026-09-30)
 - [x] Novel payees r-20260929-d01..d04 — HOLD d-20260929-12..15 (named 2026-09-29T22:08+07; not pays). 402signal (0xa2604ae688228af8349363770351bfcec66d4fa0 /route $0.003) + whaletape (0x25a8b697Da5c0bAF698Fd6BD9701B5e825214145 /coverage $0.001) + straits.live (0x1B24dEAc0951EFCD6923f684b574Fe9a4202Cf1f premium/vessels $0.02) + token-risk (0x332DbF15a8Bcca8eEB4390b380202360F4f45401 /v1/scan $0.01). (protocol-scout daily-shallow 2026-09-29)
@@ -11,7 +12,7 @@ hermes_last_seen: 2026-09-26T13:27:00+07:00
 - [x] weekly-healthcheck: Frontier Watch — pause daily/weekend frontier-watch-daily; keep Friday-only steal-list (FLEET Fri-only; cards still 7d incl Sat/Sun). YES d-20260928-06 (named 2026-09-28T20:44+07). (eggbot 2026-09-28)
 - [x] weekly-healthcheck: Seller Desk — seller-desk-daily-health 7d→weekdays 1-5 only. YES d-20260928-06 (named 2026-09-28T20:44+07; open since 2026-09-21). (eggbot 2026-09-28)
 - [x] weekly-healthcheck: Money Maker Bot — pause/disable Quiet opportunity `0 */2 * * *` leftover (parked; AUTOMATIONS forbids 2h loop). YES d-20260928-06 (named 2026-09-28T20:44+07). (eggbot 2026-09-28)
-- [x] Frontier self-hosted worker trial — `cursor agent worker start` / self-hosted machines (desk/cards/2026-09-28-watch.md USAGE #1). HOLD d-20260928-01 until friday frontier list (named 2026-09-28); no trial start; no new bots; Buyer-only pay stays. (frontier-watch 2026-09-28)
+- [x] Frontier self-hosted worker trial — `cursor agent worker start` / self-hosted machines (desk/cards/2026-09-28-watch.md USAGE #1). HOLD d-20260928-01 named 2026-09-28; resurfaced on Frontier Friday steal-list 2026-10-02 #1 (open must-line above) — decide there; no new bots; Buyer-only pay stays. (frontier-watch 2026-10-02 refresh)
 - [x] Paste desk/HERMES.md into Hermes and run demand radar (human: done 2026-09-26)
 - [x] Archive leftover 50-bot-system → archive/50-bot-system/ (14 files; commit 58a2067; README says do not revive)
 - [x] Keep Grok Task notify OFF; keep ledger-push paused (standing)
@@ -40,7 +41,7 @@ hermes_last_seen: 2026-09-26T13:27:00+07:00
 - Demand Radar live: cards → CoS; never pays
 - Other demand-radar paths are not standing pays (blockrun events, nansen current-balance, x402atlas /trend). tick/latest and tick/symbols are one-shot unlocked above, not standing autopay. No new SKU. No listing.
 - Frontier trial: Projects+pstack capped per d-20260925-06
-- Frontier self-hosted worker trial HOLD d-20260928-01 until friday steal-list
+- Frontier Friday steal-list 2026-10-02 open (self-hosted HOLD d-20260928-01 + Team Bots + Cursor handoff); do not auto-adopt
 - weekly-healthcheck YES d-20260928-06: Frontier Friday-only steal-list; Seller weekdays 1-5; Money Maker pause Quiet opportunity `0 */2 * * *`. See desk/status/weekly-healthcheck-2026-09-28.md
 
 ## parked
