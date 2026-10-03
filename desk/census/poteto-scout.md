@@ -16,18 +16,18 @@ role: OTHER (external @poteto method scout; not a Market Desk seat)
 
 ## Standing outs
 
-- NEW/ESCALATE deltas → Super Intel (`52de3541-85d2-46db-8415-aa5aa6cf6093`) + Compound (`608e9fc7-65de-4875-91cf-af3f6e3899ee`) for HOW-THEY-WORKED / playbook **filing only**.
-- Daily scout cards → desk cards + Super Intel + Compound; not chat DM.
+- **Routing lock (user 2026-10-02):** do **not** message Market CoS, Compound, or Super Intel — those seats are dead. File NEW/ESCALATE cards in-repo only.
+- Historical note: older cards named SI/Compound file-only outs; keep filing path = `desk/cards` + census Latest only.
 
 ## Latest
 
 - status: **ESCALATE**
-- ts: 2026-10-02T09:37+07
-- window: scanned @poteto posts since ~2026-10-01T02:37Z through 2026-10-02 ~09:37 ICT (twiiit/shitter RSS + api.fxtwitter status + screenshot OCR; user-X MCP client-not-enrolled)
-- card: `desk/cards/2026-10-02-poteto-scout.md`
-- signal: Slack `@poteto repro and fix full autopilot` → cloud agent repro-first then fix/test/PR/screenshots (2105576730413134291 + thread). Categories USAGE|LIVE-DEMO|GUARDRAIL|FLEET.
-- skipped: proactive-suggestions cheer `2105718847181656361`; 3x-faster / X-Chat RTs; pepsi joke; Matt restatement echo; billion-dollar joke; prior Team-engineer + Matt-Pocock-cosign baseline; Matt live not yet aired (~23:00 ICT); pstack still **0.15.5**.
+- ts: 2026-10-03T09:39+07
+- window: scanned @poteto posts since ~2026-10-02T02:37Z through 2026-10-03 ~02:40Z (nitter/shitter RSS + api.fxtwitter status; user-X MCP client-not-enrolled)
+- card: `desk/cards/2026-10-03-poteto-scout.md`
+- signal: Matt Pocock live **aired** + Lauren dual skill-plugin compose (`2106134336705843554` → youtube.com/watch?v=MN9dGgmLyso); RT cosign Viticci multitasking fleet (group specialized bots → cloud agents + voice + Notion) `2106094796146176008`. Categories GUIDE|LIVE-DEMO|FLEET.
+- skipped: deleting-the-product culture rant; usage-limits cheer; Dot-vs-GrokBot RT; Cursor Rollouts RT; JP pstack Zenn book RT; dogfood "bot to build bot" cheer; prior Slack bug-fix + Team-engineer + Matt-cosign baseline; pstack still **0.15.5**.
 - human: no must-line
-- outs: Super Intel + Compound file-only; Market CoS one-line steal pointer (Slack autopilot bug-fix spell; watch Matt Pocock tonight)
-- prior: 2026-10-01 ESCALATE Team engineer manager + Matt Pocock cosign; 2026-09-30 NONE
+- outs: file-only in-repo (no teammate / CoS / SI / Compound messages)
+- prior: 2026-10-02 ESCALATE Slack repro-first autopilot bug-fix; 2026-10-01 ESCALATE Team engineer + Matt cosign; 2026-09-30 NONE
 - densify_ack: d-20260927-06 applied 2026-09-27T09:43+07
