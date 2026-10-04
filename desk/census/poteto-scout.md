@@ -22,12 +22,12 @@ role: OTHER (external @poteto method scout; not a Market Desk seat)
 ## Latest
 
 - status: **ESCALATE**
-- ts: 2026-10-03T09:39+07
-- window: scanned @poteto posts since ~2026-10-02T02:37Z through 2026-10-03 ~02:40Z (nitter/shitter RSS + api.fxtwitter status; user-X MCP client-not-enrolled)
-- card: `desk/cards/2026-10-03-poteto-scout.md`
-- signal: Matt Pocock live **aired** + Lauren dual skill-plugin compose (`2106134336705843554` → youtube.com/watch?v=MN9dGgmLyso); RT cosign Viticci multitasking fleet (group specialized bots → cloud agents + voice + Notion) `2106094796146176008`. Categories GUIDE|LIVE-DEMO|FLEET.
-- skipped: deleting-the-product culture rant; usage-limits cheer; Dot-vs-GrokBot RT; Cursor Rollouts RT; JP pstack Zenn book RT; dogfood "bot to build bot" cheer; prior Slack bug-fix + Team-engineer + Matt-cosign baseline; pstack still **0.15.5**.
+- ts: 2026-10-04T09:34+07
+- window: scanned @poteto posts since ~2026-10-03T02:40Z through 2026-10-04 ~02:35Z (shitter RSS; user-X MCP client-not-enrolled; fxtwitter/nitter.cz challenged)
+- card: `desk/cards/2026-10-04-poteto-scout.md`
+- signal: pstack **0.15.9** ships new `/correct` + `/benchmark-checklist` skills; `/architect` gains agent-friendly architecture guidance; Lauren posts Grok Bot Project-agent rearchitect prompt (`/correct`+`/architect`+optional `/recall` → plan with prototype data → stack or full autopilot). Source `2106542593656111276`. Categories INNOVATION|USAGE|GUIDE.
+- skipped: Matt abstractions RT afterglow; third-party Grok Bot cheer RTs (worksheets, booking, bills, usage); 10-years meme; prior Matt-live + Viticci + Slack bug-fix baseline.
 - human: no must-line
 - outs: file-only in-repo (no teammate / CoS / SI / Compound messages)
-- prior: 2026-10-02 ESCALATE Slack repro-first autopilot bug-fix; 2026-10-01 ESCALATE Team engineer + Matt cosign; 2026-09-30 NONE
+- prior: 2026-10-03 ESCALATE Matt live + dual plugins + Viticci fleet; 2026-10-02 ESCALATE Slack repro-first autopilot; 2026-10-01 ESCALATE Team engineer + Matt cosign; 2026-09-30 NONE
 - densify_ack: d-20260927-06 applied 2026-09-27T09:43+07
