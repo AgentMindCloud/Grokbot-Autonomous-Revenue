@@ -21,13 +21,13 @@ role: OTHER (external @poteto method scout; not a Market Desk seat)
 
 ## Latest
 
-- status: **ESCALATE**
-- ts: 2026-10-04T09:34+07
-- window: scanned @poteto posts since ~2026-10-03T02:40Z through 2026-10-04 ~02:35Z (shitter RSS; user-X MCP client-not-enrolled; fxtwitter/nitter.cz challenged)
-- card: `desk/cards/2026-10-04-poteto-scout.md`
-- signal: pstack **0.15.9** ships new `/correct` + `/benchmark-checklist` skills; `/architect` gains agent-friendly architecture guidance; Lauren posts Grok Bot Project-agent rearchitect prompt (`/correct`+`/architect`+optional `/recall` → plan with prototype data → stack or full autopilot). Source `2106542593656111276`. Categories INNOVATION|USAGE|GUIDE.
-- skipped: Matt abstractions RT afterglow; third-party Grok Bot cheer RTs (worksheets, booking, bills, usage); 10-years meme; prior Matt-live + Viticci + Slack bug-fix baseline.
+- status: **NEW**
+- ts: 2026-10-05T09:45+07
+- window: scanned @poteto posts since 2106542593656111276 (~2026-10-04T00:31Z) through 2026-10-05 ~02:40Z (api.fxtwitter profile statuses; user-X MCP client-not-enrolled)
+- card: `desk/cards/2026-10-05-poteto-scout.md`
+- signal: GUIDE constraints-as-agent-management essay + Runar Bjarnason "Constraints Liberate, Liberties Constrain" talk pointer (`2106916667599278365`); FLEET RT jacobgold internal merged-PR leaderboard Sep 21 to Oct 4 (Jacob 3,243 / 232 per day; Lauren 2,258 / 161 per day) (`2106843104758419459`); soft "Ship Company" meme. No ESCALATE (no skill ship, no policy change, no live demo, not her own talk).
+- skipped: Compile talk re-promo + Matt Q&A (baseline); 1000x cosign; dotey recap; third-party SOP / cheer RTs; 0.15.9 thread items already filed.
 - human: no must-line
 - outs: file-only in-repo (no teammate / CoS / SI / Compound messages)
-- prior: 2026-10-03 ESCALATE Matt live + dual plugins + Viticci fleet; 2026-10-02 ESCALATE Slack repro-first autopilot; 2026-10-01 ESCALATE Team engineer + Matt cosign; 2026-09-30 NONE
+- prior: 2026-10-04 ESCALATE pstack 0.15.9 /correct; 2026-10-03 ESCALATE Matt live + dual plugins + Viticci fleet; 2026-10-02 ESCALATE Slack repro-first autopilot; 2026-10-01 ESCALATE Team engineer + Matt cosign
 - densify_ack: d-20260927-06 applied 2026-09-27T09:43+07
