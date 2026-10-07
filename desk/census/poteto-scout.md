@@ -22,12 +22,12 @@ role: OTHER (external @poteto method scout; not a Market Desk seat)
 ## Latest
 
 - status: **ESCALATE**
-- ts: 2026-10-06T09:40+07
-- window: scanned @poteto posts since the 2026-10-05 card (~2026-10-05T02:40Z) through 2026-10-06 ~02:35Z (api.fxtwitter profile statuses with curl UA; user-X MCP client-not-enrolled)
-- card: `desk/cards/2026-10-06-poteto-scout.md`
-- signal: INNOVATION|GUIDE pstack v0.15.13 ships `/poteto-help` (skill fed all of Lauren's guides; routes to the right pstack skill / poteto-mode) (`2107158163145576902`); she floated "distill myself into the skill" (intent only). Also RT official Grok Bot changelog + RSS (x.ai/changelog/bot); RT SpaceXAI free live workshops Oct 6–9 10–11am PT; Creator Rewards template push; voice-mode cosign.
-- skipped: temu-knockoff / sentiment posts; housecor Matt-interview recap (baseline); third-party praise RTs.
+- ts: 2026-10-07T09:45+07
+- window: @poteto posts 2026-10-06 ~02:35Z → 2026-10-07 ~02:40Z (api.fxtwitter profile statuses, 2 pages, curl UA; /2/conversation for key replies)
+- card: `desk/cards/2026-10-07-poteto-scout.md`
+- signal: GUARDRAIL explicit auto-merge rule in her daily loop. Slack feedback → Linear → cloud agent repro (pstack) → fix + small fuzz swarm (test account vs prod) → Slack ping → rebase + auto-merge after 1h unless changes requested (`2107510472601985336`). FLEET two-Team-Bot release/QA: `sandcastle` release manager DMs contributors their PRs (an objection pauses the release), builds, and runs a 10+ agent Grok 4.7 xhigh fuzz swarm (directed + chaos monkey); findings → @`poteto` engineer bot → Cursor Project triage/fix; she keeps the cherry-pick-vs-next-release call (`2107527180263829827`). GUIDE first-mile/last-mile essay. USAGE Teams + Atlassian plugins, @bot tagging on X.
+- skipped: items already in the 10-06 galaxy-pulse (Grok Bot 101, parkersmith workshop, nickwm list); banter; sentiment RTs.
 - human: no must-line
 - outs: file-only in-repo (no teammate / CoS / SI / Compound messages)
-- prior: 2026-10-05 NEW constraints guide + PR leaderboard; 2026-10-04 ESCALATE pstack 0.15.9 /correct; 2026-10-03 ESCALATE Matt live + dual plugins + Viticci fleet; 2026-10-02 ESCALATE Slack repro-first autopilot
+- prior: 2026-10-06 ESCALATE /poteto-help v0.15.13; 2026-10-05 NEW constraints guide + PR leaderboard; 2026-10-04 ESCALATE pstack 0.15.9 /correct; 2026-10-03 ESCALATE Matt live + dual plugins + Viticci fleet
 - densify_ack: d-20260927-06 applied 2026-09-27T09:43+07
