@@ -21,13 +21,13 @@ role: OTHER (external @poteto method scout; not a Market Desk seat)
 
 ## Latest
 
-- status: **ESCALATE**
-- ts: 2026-10-07T09:45+07
-- window: @poteto posts 2026-10-06 ~02:35Z → 2026-10-07 ~02:40Z (api.fxtwitter profile statuses, 2 pages, curl UA; /2/conversation for key replies)
-- card: `desk/cards/2026-10-07-poteto-scout.md`
-- signal: GUARDRAIL explicit auto-merge rule in her daily loop. Slack feedback → Linear → cloud agent repro (pstack) → fix + small fuzz swarm (test account vs prod) → Slack ping → rebase + auto-merge after 1h unless changes requested (`2107510472601985336`). FLEET two-Team-Bot release/QA: `sandcastle` release manager DMs contributors their PRs (an objection pauses the release), builds, and runs a 10+ agent Grok 4.7 xhigh fuzz swarm (directed + chaos monkey); findings → @`poteto` engineer bot → Cursor Project triage/fix; she keeps the cherry-pick-vs-next-release call (`2107527180263829827`). GUIDE first-mile/last-mile essay. USAGE Teams + Atlassian plugins, @bot tagging on X.
-- skipped: items already in the 10-06 galaxy-pulse (Grok Bot 101, parkersmith workshop, nickwm list); banter; sentiment RTs.
+- status: **NEW**
+- ts: 2026-10-08T09:45+07
+- window: @poteto posts 2026-10-07 ~02:40Z → 2026-10-08 ~02:40Z (api.fxtwitter profile statuses, 2 pages, curl UA; /2/conversation for the TTR post)
+- card: `desk/cards/2026-10-08-poteto-scout.md`
+- signal: INNOVATION "time to (fully automated, hands-off) rewrite" (TTR) thought-experiment heuristic for agent-readiness; reply measures = % agent code merged, revert/rework rate, human messages per accepted PR; XState/Effect invariants; "codebase is a form of memory" (`2107913381751730352`). GUIDE first-timer onboarding: connect apps first, do everything with one bot before adding more, specialize later (per-customer or specialist bots), marketplace + Dr Eggbot (`2107830403549831186`). USAGE native X monitoring → feature requests to issue tracker, bugs to cloud agent/Project, no X connector needed (`2107963437154435182`).
+- skipped: items already in 10-07 galaxy-pulse; token-cost debate RTs; sentiment RTs; hiring RT.
 - human: no must-line
 - outs: file-only in-repo (no teammate / CoS / SI / Compound messages)
-- prior: 2026-10-06 ESCALATE /poteto-help v0.15.13; 2026-10-05 NEW constraints guide + PR leaderboard; 2026-10-04 ESCALATE pstack 0.15.9 /correct; 2026-10-03 ESCALATE Matt live + dual plugins + Viticci fleet
+- prior: 2026-10-07 ESCALATE timed auto-merge rule + sandcastle release/QA bots; 2026-10-06 ESCALATE /poteto-help v0.15.13; 2026-10-05 NEW constraints guide + PR leaderboard; 2026-10-04 ESCALATE pstack 0.15.9 /correct
 - densify_ack: d-20260927-06 applied 2026-09-27T09:43+07
