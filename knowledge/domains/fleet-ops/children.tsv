@@ -1,0 +1,26 @@
+workstream	owner	status	last_delta	quiet_unless
+compound-first-wake-ingest	Compound	done-draft	2026-09-24	STATE material update
+l8-seat-jd	Compound	drafted	2026-09-24	owner go to expand cast
+l9-closeout-recap	Compound	drafted	2026-09-24	owner go to publish
+l10-delta-tracker	Compound	drafted	2026-09-24	owner go to arm routine
+l11-append-only-audit	Compound	drafted	2026-09-24	git force-push = owner
+scout-intel-compound	Poteto Scout→Super Intel→Compound	idle	2026-10-01	NEW or ESCALATE only
+routing-no-human-galaxy-ping	Compound	drafted	2026-09-24	owner override only
+l12-projects-pstack-parallel	Super Intel→Compound	drafted	2026-09-25	Friday CoS / owner go to adopt
+scout-usage-2026-09-25-projects-pstack	Compound	drafted	2026-09-25	Friday CoS / owner go to adopt
+densify-20260927-06-daily-intel-cycle	Compound	codified	2026-09-27	daily Super Intel deltas; never human
+densify-daily-fold-d-20260927-06	Super Intel	live	2026-09-27	quiet unless Scout NEW/ESCALATE or unfiled delta
+scout-escalate-2026-09-28-matcha-trust	Compound	drafted	2026-09-28	owner/CoS go to adopt; never human
+l13-behind-the-craft-14bots	Super Intel→Compound	drafted	2026-09-28	no adopt / no CreateAgent
+l14-matcha-orch-only	Super Intel→Compound	drafted	2026-09-28	no CreateAgent clone
+l15-design-keyframe-figma	Super Intel→Compound	drafted	2026-09-28	design seat Needs-go
+l16-trust-ladder-land-before-read	Super Intel→Compound	drafted	2026-09-28	routine/merge Needs-go
+l15-design-keyframe-5pct	Compound	drafted	2026-09-28	no design bot
+scout-escalate-2026-09-29-team-bots-restate	Compound	drafted	2026-09-29	owner/CoS go to adopt; never human
+l17-team-bots-multiplayer	Super Intel→Compound	drafted	2026-09-29	no adopt / no CreateAgent
+l18-restatement-prompt	Super Intel→Compound	drafted	2026-09-29	no routine arm from tip alone
+scout-escalate-2026-10-01-team-engineer-manager	Compound	drafted	2026-10-01	owner/CoS go to adopt; never human
+pending-team-engineer-manager-projects	Super Intel→Compound	pending-L#	2026-10-01	no adopt / no CreateAgent
+guide-watch-matt-pocock-2026-10-02	Compound	watch	2026-10-01	file after live; no invent pre-air
+l19-team-engineer-manager-projects	Super Intel→Compound	drafted	2026-10-01	no adopt / no CreateAgent
+l20-matt-pocock-live-watch	Super Intel→Compound	drafted	2026-10-01	file after Fri live; no invent before air
