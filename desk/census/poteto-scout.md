@@ -21,13 +21,13 @@ role: OTHER (external @poteto method scout; not a Market Desk seat)
 
 ## Latest
 
-- status: **NEW**
-- ts: 2026-10-08T09:45+07
-- window: @poteto posts 2026-10-07 ~02:40Z → 2026-10-08 ~02:40Z (api.fxtwitter profile statuses, 2 pages, curl UA; /2/conversation for the TTR post)
-- card: `desk/cards/2026-10-08-poteto-scout.md`
-- signal: INNOVATION "time to (fully automated, hands-off) rewrite" (TTR) thought-experiment heuristic for agent-readiness; reply measures = % agent code merged, revert/rework rate, human messages per accepted PR; XState/Effect invariants; "codebase is a form of memory" (`2107913381751730352`). GUIDE first-timer onboarding: connect apps first, do everything with one bot before adding more, specialize later (per-customer or specialist bots), marketplace + Dr Eggbot (`2107830403549831186`). USAGE native X monitoring → feature requests to issue tracker, bugs to cloud agent/Project, no X connector needed (`2107963437154435182`).
-- skipped: items already in 10-07 galaxy-pulse; token-cost debate RTs; sentiment RTs; hiring RT.
+- status: **ESCALATE**
+- ts: 2026-10-09T09:40+07
+- window: @poteto posts 2026-10-08 ~02:40Z → 2026-10-09 ~02:40Z (X get_users_posts paginated + get_posts_by_ids for long notes)
+- card: `desk/cards/2026-10-09-poteto-scout.md`
+- signal: GUARDRAIL|INNOVATION agentic code review risk-tiers every PR; low–medium risk merges with no human review (+ bugbot; "agentic forge" w/ @jacobgold) (`2108283057581195413`); aspiration "make human code review obsolete" (`2108329348600381660`). USAGE|FLEET X→Slack dual-bot: X-mention bot reports to Slack; Slack bot runs pstack triage/repro/fix (`2108253488451100877`); live daily digest prompt `@bot … slack me a daily digest at 9am` (`2108232222163812795`); live `@bot repro/triage` on X. GUIDE "volume does matter" / software factory / Michelin kitchen + cost-per-intelligence + parallel pstack portfolio (`2108290818746528017`, `2108279582088671583`).
+- skipped: Elon company-of-bots RT; Shopify connector; Omarchy feedback; ambitious meme; parkersmith workshop re-promo; galaxy-pulse vanity email.
 - human: no must-line
 - outs: file-only in-repo (no teammate / CoS / SI / Compound messages)
-- prior: 2026-10-07 ESCALATE timed auto-merge rule + sandcastle release/QA bots; 2026-10-06 ESCALATE /poteto-help v0.15.13; 2026-10-05 NEW constraints guide + PR leaderboard; 2026-10-04 ESCALATE pstack 0.15.9 /correct
+- prior: 2026-10-08 NEW TTR + first-timer one-bot-first + native X monitoring loop; 2026-10-07 ESCALATE timed auto-merge + sandcastle release/QA; 2026-10-06 ESCALATE /poteto-help v0.15.13; 2026-10-05 NEW constraints guide + PR leaderboard; 2026-10-04 ESCALATE pstack 0.15.9 /correct
 - densify_ack: d-20260927-06 applied 2026-09-27T09:43+07
